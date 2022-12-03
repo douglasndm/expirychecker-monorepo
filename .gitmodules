@@ -1,0 +1,6 @@
+[submodule "packages/expirychecker"]
+	path = packages/expirychecker
+	url = https://github.com/douglasndm/expirychecker
+[submodule "packages/teams"]
+	path = packages/teams
+	url = https://github.com/douglasndm/expiryteams-reactnative

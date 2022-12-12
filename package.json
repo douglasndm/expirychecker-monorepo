@@ -1,19 +1,16 @@
 {
-  "name": "expirychecker",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "private":"true",
-  "scripts": {
-    "postinstall": "patch-package"
-  },
-  "workspaces": {
-    "packages": [
-      "packages/*"
-    ],
-    "nohoist": [ "**/*/**" ]
-  },
-  "dependencies": {
-    "react-native": "*"
-  }
+    "name": "expirychecker",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "private":"true",
+    "workspaces": {
+        "packages": [
+            "packages/*"
+        ],
+        "nohoist": [ "**/*/**" ]
+    },
+    "devDependencies": {
+        "typescript": "^4.4.3"
+    }
 }

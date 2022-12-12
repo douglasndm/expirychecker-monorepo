@@ -4,3 +4,6 @@
 [submodule "packages/teams"]
 	path = packages/teams
 	url = https://github.com/douglasndm/expiryteams-reactnative
+[submodule "packages/shared"]
+	path = packages/shared
+	url = https://github.com/douglasndm/expirychecker-shared

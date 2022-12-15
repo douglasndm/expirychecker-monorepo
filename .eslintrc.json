@@ -32,7 +32,6 @@
         "no-plusplus": "off",
         "no-extra-boolean-cast": 0,
         "react/require-default-props": "off",
-        "react/jsx-indent" : ["error", 4],
         "prettier/prettier": "error",
         "no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
         "react/jsx-one-expression-per-line": "off",
@@ -51,10 +50,10 @@
             "error",
             "ignorePackages",
             {
-              "ts": "never",
-              "tsx": "never"
+                "ts": "never",
+                "tsx": "never"
             }
-          ]
+        ]
     },
     "settings": {
         "import/resolver": {

@@ -59,5 +59,8 @@
         "import/resolver": {
             "typescript": {}
         }
+    },
+    "babelOptions": {
+        "presets": ["@babel/preset-react"]
     }
 }

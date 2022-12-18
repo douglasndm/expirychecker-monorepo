@@ -3,39 +3,35 @@
     "version": "1.0.0",
     "main": "index.js",
     "license": "MIT",
-    "private":"true",
+    "private": "true",
     "workspaces": {
         "packages": [
             "packages/expirychecker",
             "packages/teams",
             "packages/shared"
-        ],
-        "nohoist": [
-            "**"
         ]
     },
     "scripts": {
-        "clean-cache": "rm -rf node_modules **/node_modules && rm -rf yarn.lock **/yarn.lock && yarn cache clean && yarn install"
+        "clean-cache": "rm -rf node_modules **/node_modules && rm -rf yarn.lock **/yarn.lock && yarn cache clean && yarn install",
+        "postinstall": "patch-package"
     },
     "devDependencies": {
         "@babel/core": "^7.15.0",
-        "@babel/eslint-parser": "7.19.1",
-        "@babel/preset-react": "7.18.6",
         "@babel/preset-typescript": "^7.16.7",
         "@babel/runtime": "^7.15.3",
         "@react-native-community/eslint-config": "^3.0.0",
-        "@typescript-eslint/eslint-plugin": "^3.9.1",
-        "@typescript-eslint/parser": "^3.9.1",
+        "@typescript-eslint/eslint-plugin": "^5.46.1",
+        "@typescript-eslint/parser": "^5.46.1",
         "babel-jest": "^26.6.3",
-        "eslint": "7.14.0",
-        "eslint-config-airbnb": "^18.2.0",
+        "eslint": "^8.29.0",
+        "eslint-config-airbnb": "^19.0.4",
         "eslint-config-prettier": "^6.11.0",
         "eslint-import-resolver-typescript": "^2.2.1",
         "eslint-plugin-import": "^2.20.1",
         "eslint-plugin-jsx-a11y": "^6.2.3",
         "eslint-plugin-prettier": "^3.1.4",
         "eslint-plugin-react": "^7.19.0",
-        "eslint-plugin-react-hooks": "^2.5.0",
+        "eslint-plugin-react-hooks": "^4.6.0",
         "jest": "^26.6.3",
         "prettier": "^2.0.5",
         "typescript": "^4.4.3"

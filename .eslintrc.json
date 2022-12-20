@@ -28,6 +28,8 @@
         "react-hooks"
     ],
     "rules": {
+        "react/function-component-definition": "off",
+        "react/jsx-no-useless-fragment": "off",
         "no-restricted-syntax":"off",
         "no-plusplus": "off",
         "no-extra-boolean-cast": 0,
@@ -59,8 +61,5 @@
         "import/resolver": {
             "typescript": {}
         }
-    },
-    "babelOptions": {
-        "presets": ["@babel/preset-react"]
     }
 }

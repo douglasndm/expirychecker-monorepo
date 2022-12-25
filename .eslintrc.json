@@ -28,6 +28,8 @@
         "react-hooks"
     ],
     "rules": {
+        "no-continue": "off",
+        "no-undef": "off",
         "react/function-component-definition": "off",
         "react/jsx-no-useless-fragment": "off",
         "import/no-unresolved": "off",

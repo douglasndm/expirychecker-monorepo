@@ -9,6 +9,10 @@
             "packages/expirychecker",
             "packages/teams",
             "packages/shared"
+        ],
+        "nohoist":  [
+            "**/@sentry/react-native",
+            "**/react-native-code-push"
         ]
     },
     "scripts": {

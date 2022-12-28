@@ -7870,7 +7870,7 @@ react-native-check-version@^1.0.16:
   dependencies:
     axios "^0.27.2"
 
-react-native-code-push@^7.0.5:
+react-native-code-push@*, react-native-code-push@^7.0.5:
   version "7.0.5"
   resolved "https://registry.yarnpkg.com/react-native-code-push/-/react-native-code-push-7.0.5.tgz#17b4fb4acc6ba6616a3cb650a7bf3be9e3075938"
   integrity sha512-0+xqxHS7onpvE/pFvKB0rN/ijLzXgNGAnmC4THxiSPvlLY7EABzeOQh1XHCSNhIBiecnTjHG36Yb15luSuqBtQ==

@@ -20,9 +20,10 @@
         "postinstall": "patch-package"
     },
     "devDependencies": {
-        "@babel/core": "^7.15.0",
+        "@babel/core": "^7.20.0",
+        "@babel/preset-env": "^7.20.0",
         "@babel/preset-typescript": "^7.16.7",
-        "@babel/runtime": "^7.15.3",
+        "@babel/runtime": "^7.20.0",
         "@react-native-community/eslint-config": "^3.0.0",
         "@tsconfig/react-native": "^2.0.2",
         "@types/jest": "^29.2.1",

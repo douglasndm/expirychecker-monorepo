@@ -7,6 +7,7 @@
         "__DEV__": "readonly"
     },
     "extends": [
+        "@react-native",
         "plugin:react/recommended",
         "plugin:@typescript-eslint/recommended",
         "airbnb",

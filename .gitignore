@@ -2,3 +2,6 @@
 **/.yarn
 
 yarn-error.log
+
+# testing
+/coverage

@@ -12,7 +12,6 @@
         ],
         "nohoist":  [
             "**/@sentry/react-native",
-            "**/react-native-code-push",
             "**/react-native-config"
         ]
     },

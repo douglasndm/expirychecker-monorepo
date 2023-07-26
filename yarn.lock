@@ -2527,6 +2527,13 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
+"@logrocket/react-native@^1.18.0":
+  version "1.18.0"
+  resolved "https://registry.yarnpkg.com/@logrocket/react-native/-/react-native-1.18.0.tgz#85faa8b838bb799db72ff152b8de115591a44cd9"
+  integrity sha512-0mzZZeXdq1EhtT6BZSkGv1AKoGwT59JHJKurvbZQLsj40DUwmozjYxX5ZOokkI/H2w49xnFCcAYTvS+4O9KQng==
+  dependencies:
+    "@expo/config-plugins" "^5.0.1"
+
 "@logrocket/react-native@^1.4.0":
   version "1.16.6"
   resolved "https://registry.yarnpkg.com/@logrocket/react-native/-/react-native-1.16.6.tgz#3134e71c06a6fcbdb9918a401a402300feb1c921"

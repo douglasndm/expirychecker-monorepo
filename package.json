@@ -11,6 +11,7 @@
             "packages/shared"
         ],
         "nohoist":  [
+            "**/@sentry/**",
             "**/react-native-config",
             "**/react-native-code-push"
         ]

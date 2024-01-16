@@ -20,6 +20,11 @@
         "clean-cache": "rm -rf node_modules **/node_modules && rm -rf yarn.lock **/yarn.lock && yarn cache clean && yarn install",
         "postinstall": "patch-package"
     },
+    "dependencies": {
+        "react-native-purchases": "7.15.0",
+        "react-native-purchases-ui": "7.15.0",
+        "styled-components": "6.1.8"
+    },
     "devDependencies": {
         "@babel/core": "^7.20.0",
         "@babel/preset-env": "^7.20.0",

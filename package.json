@@ -23,6 +23,7 @@
     "dependencies": {
         "react-native-purchases": "7.15.0",
         "react-native-purchases-ui": "7.15.0",
+        "react-native-share": "^10.0.2",
         "styled-components": "6.1.8"
     },
     "devDependencies": {

@@ -10,8 +10,7 @@
             "packages/teams",
             "packages/shared"
         ],
-        "nohoist":  [
-            "**/@sentry/**",
+        "nohoist": [
             "**/react-native-config",
             "**/react-native-code-push"
         ]
@@ -21,6 +20,8 @@
         "postinstall": "patch-package"
     },
     "dependencies": {
+        "@react-native-community/netinfo": "^11.2.1",
+        "axios": "^1.6.7",
         "react-native-purchases": "7.15.0",
         "react-native-purchases-ui": "7.15.0",
         "react-native-share": "^10.0.2",
@@ -31,12 +32,12 @@
         "@babel/preset-env": "^7.20.0",
         "@babel/preset-typescript": "^7.16.7",
         "@babel/runtime": "^7.20.0",
-        "@tsconfig/react-native": "^3.0.0",
-        "@types/metro-config": "^0.76.3",
         "@react-native/babel-preset": "0.73.19",
         "@react-native/eslint-config": "0.73.2",
         "@react-native/metro-config": "0.73.3",
         "@react-native/typescript-config": "0.73.1",
+        "@tsconfig/react-native": "^3.0.0",
+        "@types/metro-config": "^0.76.3",
         "@types/react": "^18.2.6",
         "@types/react-test-renderer": "^18.0.0",
         "@typescript-eslint/eslint-plugin": "^5.46.1",

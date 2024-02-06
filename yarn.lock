@@ -2128,7 +2128,7 @@
 
 "@react-native/metro-config@0.73.3":
   version "0.73.3"
-  resolved "https://registry.npmjs.org/@react-native/metro-config/-/metro-config-0.73.3.tgz"
+  resolved "https://registry.yarnpkg.com/@react-native/metro-config/-/metro-config-0.73.3.tgz#15f5e1393258148fadb285821dd9b037ea411459"
   integrity sha512-aIVh+lM52n7/RFDXLDiIp1vI21jc9thm2VxdkP7KwxMut7VvW+2tO38zKt74/2ker2ca0205tbf3pyCYBvV6Ww==
   dependencies:
     "@react-native/js-polyfills" "0.73.1"
@@ -2245,6 +2245,11 @@
   version "8.10.1"
   resolved "https://registry.npmjs.org/@revenuecat/purchases-typescript-internal/-/purchases-typescript-internal-8.10.1.tgz"
   integrity sha512-T3GJHtYAHXLrM3XkAuxZCeYpn1yEShRb1qY31AIuyp/9eTTHgYhNa/jteNj1rlxYYFD4pCSi+dJeoy4vrpcf5w==
+
+"@revenuecat/purchases-typescript-internal@9.3.0":
+  version "9.3.0"
+  resolved "https://registry.yarnpkg.com/@revenuecat/purchases-typescript-internal/-/purchases-typescript-internal-9.3.0.tgz#26d5a235562885ec484c53a26795728a5473c546"
+  integrity sha512-Z6ZZxcTz83LIlHHLnr3WlFDc/tVPLKezVTW2pro1N35Uymweu+dlpsb/VSIeEjxoZ/zGRqN4AJkECOQUQtIyyQ==
 
 "@rnx-kit/align-deps@^2.0.3":
   version "2.2.4"
@@ -2382,6 +2387,14 @@
   integrity sha512-c3mAZEuK0lvBp8tmuL74XRKn1+y2dcwOUpH7x4WrF6gk1GIgiluDRgMYQtw2OFcBvAJWlt6ASU3tSqxp0Uu0Aw==
   dependencies:
     "@types/istanbul-lib-report" "*"
+
+"@types/jest@*":
+  version "29.5.11"
+  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-29.5.11.tgz#0c13aa0da7d0929f078ab080ae5d4ced80fa2f2c"
+  integrity sha512-S2mHmYIVe13vrm6q4kN6fLYYAka15ALQki/vgDC3mIukEOx8WJlv0kQPM+d4w8Gp6u0uSdKND04IlTXBv0rwnQ==
+  dependencies:
+    expect "^29.0.0"
+    pretty-format "^29.0.0"
 
 "@types/jest@^29.5.0":
   version "29.5.5"
@@ -8065,9 +8078,9 @@ react-native-camera-kit@*, react-native-camera-kit@^13.0.0:
   dependencies:
     lodash "^4.14.2"
 
-react-native-check-version@^1.0.16:
+react-native-check-version@^1.1.1:
   version "1.1.1"
-  resolved "https://registry.npmjs.org/react-native-check-version/-/react-native-check-version-1.1.1.tgz"
+  resolved "https://registry.yarnpkg.com/react-native-check-version/-/react-native-check-version-1.1.1.tgz#f469fe8d85d7575325fd13a57ce5c678447f7b86"
   integrity sha512-/8dLMExwYeZAEWic6Dr9S4TMPdDmuTNif8wS7oaF8gEHl8/i9lABD3YjBglXwieXSqzfge/Tuo0himUOEtQMZg==
 
 react-native-code-push@^8.1.0:
@@ -8241,7 +8254,7 @@ react-native-picker-select@^8.0.4:
     "@react-native-picker/picker" "^1.8.3"
     lodash.isequal "^4.5.0"
 
-react-native-purchases-ui@*, react-native-purchases-ui@7.15.0:
+react-native-purchases-ui@*:
   version "7.15.0"
   resolved "https://registry.npmjs.org/react-native-purchases-ui/-/react-native-purchases-ui-7.15.0.tgz"
   integrity sha512-aQSujEx451xSpQhvo/B+iBlHgnUrM6JFcpFfcDgpXDZxaLCWFInBuHhefIt98ARMiv0ifHXpZPGHFrpDHRriWw==
@@ -8249,12 +8262,27 @@ react-native-purchases-ui@*, react-native-purchases-ui@7.15.0:
     "@revenuecat/purchases-typescript-internal" "8.10.1"
     react-native-purchases "7.15.0"
 
+react-native-purchases-ui@7.18.0:
+  version "7.18.0"
+  resolved "https://registry.yarnpkg.com/react-native-purchases-ui/-/react-native-purchases-ui-7.18.0.tgz#e0dfa58b33ec86d4288d117e7d6c4400481a78d9"
+  integrity sha512-4Z1SMoVfWdlA+OWycFv1tFE3mqIAxFrtRGdgx1WyvvqfQvjqvhY3c116q8nvvhyneSWPGEmPmMZp3mOyEVnw1w==
+  dependencies:
+    "@revenuecat/purchases-typescript-internal" "8.10.1"
+    react-native-purchases "7.18.0"
+
 react-native-purchases@*, react-native-purchases@7.15.0:
   version "7.15.0"
   resolved "https://registry.npmjs.org/react-native-purchases/-/react-native-purchases-7.15.0.tgz"
   integrity sha512-/8VnAbyxedmY5Cj3+3IBtDYVNhyfu2MyZErbNCyRpihJDfjZ0qclHfo2Sa7UeShJ0mreeUgm0nqAO2c0LT6wqg==
   dependencies:
     "@revenuecat/purchases-typescript-internal" "8.10.1"
+
+react-native-purchases@7.18.0:
+  version "7.18.0"
+  resolved "https://registry.yarnpkg.com/react-native-purchases/-/react-native-purchases-7.18.0.tgz#fcbcf2df4fc74ad58f704bbc93bb80ec8e19d44f"
+  integrity sha512-U9evUL9LxC8ISF4teX9oqLna3x4JogOE8dw8CG76EFjY8+PgMBtggbBUWy1UzfgkVV74imvWLbKsrjNdaEDUCw==
+  dependencies:
+    "@revenuecat/purchases-typescript-internal" "9.3.0"
 
 react-native-push-notification@^8.1.1:
   version "8.1.1"

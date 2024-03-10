@@ -20,8 +20,10 @@
         "postinstall": "patch-package"
     },
     "dependencies": {
+        "@bugsnag/plugin-react-navigation": "7.19.0",
+        "@bugsnag/react-native": "^7.22.5",
         "@react-native-clipboard/clipboard": "^1.13.2",
-        "@react-native-community/netinfo": "^11.2.1",
+        "@react-native-community/netinfo": "^11.3.1",
         "axios": "^1.6.7",
         "lottie-react-native": "^6.7.0",
         "react": "18.2.0",

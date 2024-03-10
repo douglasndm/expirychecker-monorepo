@@ -1257,28 +1257,10 @@
   resolved "https://registry.yarnpkg.com/@bugsnag/plugin-react/-/plugin-react-7.19.0.tgz#3f86c6ed2745cd60a4099d0e14ca46f2b9cf501f"
   integrity sha512-owC4QXYJWGllMoOPcH5P7sbDIDuFLMCbjGAU6FwH5mBMObSQo+1ViSKImlTJQUFXATM8ySISTBVt7w3C6FFHng==
 
-"@bugsnag/react-native@*":
+"@bugsnag/react-native@*", "@bugsnag/react-native@^7.22.5":
   version "7.22.5"
   resolved "https://registry.yarnpkg.com/@bugsnag/react-native/-/react-native-7.22.5.tgz#0c2f989b9a93a50f05e9600ae6e56c57388e03ca"
   integrity sha512-ZEDVfSZBxVTloFP3zkMW4xd3bEHD0R7/UNfsqTAYm2mAWLlNpMIcn6xKFdUSoMKFk0LUGwEy+7a0T2IUThL4ow==
-  dependencies:
-    "@bugsnag/core" "^7.19.0"
-    "@bugsnag/delivery-react-native" "^7.22.3"
-    "@bugsnag/plugin-console-breadcrumbs" "^7.22.3"
-    "@bugsnag/plugin-network-breadcrumbs" "^7.22.3"
-    "@bugsnag/plugin-react" "^7.19.0"
-    "@bugsnag/plugin-react-native-client-sync" "^7.22.3"
-    "@bugsnag/plugin-react-native-event-sync" "^7.22.3"
-    "@bugsnag/plugin-react-native-global-error-handler" "^7.22.3"
-    "@bugsnag/plugin-react-native-hermes" "^7.19.0"
-    "@bugsnag/plugin-react-native-session" "^7.22.3"
-    "@bugsnag/plugin-react-native-unhandled-rejection" "^7.19.0"
-    iserror "^0.0.2"
-
-"@bugsnag/react-native@7.22.3":
-  version "7.22.3"
-  resolved "https://registry.yarnpkg.com/@bugsnag/react-native/-/react-native-7.22.3.tgz#d37cb17a23cb2adad61fe2d40f8accded3cb2b96"
-  integrity sha512-a6bo3Lny3RzunyUmQvhVScQjyDsaxr0DiDQQx10osu/+ysUF+Z9eMOYkUJIHq2r5ZQ2IGuG91Nql51zjjlmWlw==
   dependencies:
     "@bugsnag/core" "^7.19.0"
     "@bugsnag/delivery-react-native" "^7.22.3"
@@ -1979,7 +1961,7 @@
     prompts "^2.4.2"
     semver "^7.5.2"
 
-"@react-native-community/netinfo@*", "@react-native-community/netinfo@^11.2.1":
+"@react-native-community/netinfo@*", "@react-native-community/netinfo@^11.3.1":
   version "11.3.1"
   resolved "https://registry.yarnpkg.com/@react-native-community/netinfo/-/netinfo-11.3.1.tgz#4539371a2f4bd402d932031be82c2449ed63a1a5"
   integrity sha512-UBnJxyV0b7i9Moa97Av+HKho1ByzX0DtbJXzUQS5E3xhQs6P2D/Os0iw3ouy7joY1TVd6uIhplPbr7l1SJNaNQ==
@@ -8160,6 +8142,11 @@ react-native-fast-image@^8.5.11:
   version "8.6.3"
   resolved "https://registry.yarnpkg.com/react-native-fast-image/-/react-native-fast-image-8.6.3.tgz#6edc3f9190092a909d636d93eecbcc54a8822255"
   integrity sha512-Sdw4ESidXCXOmQ9EcYguNY2swyoWmx53kym2zRsvi+VeFCHEdkO+WG1DK+6W81juot40bbfLNhkc63QnWtesNg==
+
+react-native-file-access@*:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/react-native-file-access/-/react-native-file-access-3.0.5.tgz#c63af958451e12bf2e3f89ca9aabde9e3fc3cd9b"
+  integrity sha512-r9AFT4islJTZnh/kLTapBBwWzJM/JcVmKelP5rOQY1u5XTCrIL7JkTh6KQNJc8oA6jDqB3DioZ01LSqpiCxeOw==
 
 react-native-flash-message@^0.3.1:
   version "0.3.1"

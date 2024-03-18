@@ -2306,6 +2306,16 @@
     abort-controller "^3.0.0"
     node-fetch "^2.6.0"
 
+"@revenuecat/purchases-typescript-internal@10.1.0":
+  version "10.1.0"
+  resolved "https://registry.yarnpkg.com/@revenuecat/purchases-typescript-internal/-/purchases-typescript-internal-10.1.0.tgz#f97958aa415b65750fe1a87518797e86a9e2a7e7"
+  integrity sha512-ItD/eToap9codS6IkhGGZTtrDPFvDPTDjo7CdW+ghanSO+tY3VthpBTuO6eUcS4eIelTLS0nFKZUtUfJzYvxRw==
+
+"@revenuecat/purchases-typescript-internal@10.2.0":
+  version "10.2.0"
+  resolved "https://registry.yarnpkg.com/@revenuecat/purchases-typescript-internal/-/purchases-typescript-internal-10.2.0.tgz#9d8817a3c34e4e413ff05dc635cd4cad953161ca"
+  integrity sha512-5oKZ//a6A67TCfTwOwip08J/nfUmq3SMQTKZ8OIL4uqPMcDXH25KWmGTo21BcpbftHWhdBDGcpq7E70vdfze8g==
+
 "@revenuecat/purchases-typescript-internal@8.10.1":
   version "8.10.1"
   resolved "https://registry.yarnpkg.com/@revenuecat/purchases-typescript-internal/-/purchases-typescript-internal-8.10.1.tgz#9e5079102061e559ef2fadba969090bdf112d47a"
@@ -8074,7 +8084,7 @@ react-native-check-version@^1.1.1:
   resolved "https://registry.yarnpkg.com/react-native-check-version/-/react-native-check-version-1.1.1.tgz#f469fe8d85d7575325fd13a57ce5c678447f7b86"
   integrity sha512-/8dLMExwYeZAEWic6Dr9S4TMPdDmuTNif8wS7oaF8gEHl8/i9lABD3YjBglXwieXSqzfge/Tuo0himUOEtQMZg==
 
-react-native-code-push@^8.1.0:
+react-native-code-push@*, react-native-code-push@^8.2.1:
   version "8.2.1"
   resolved "https://registry.yarnpkg.com/react-native-code-push/-/react-native-code-push-8.2.1.tgz#25b2f1d2e6e30065d85f1707365462b2fbc22833"
   integrity sha512-YCNDRTcVoK7pBMmm/CqOr+J3Pb7HjjHsWoke/xizv7Xx1NTN90k6jDykzAItiBMxJ0bc+zdFP1qNsZRT1NKHOg==
@@ -8259,7 +8269,7 @@ react-native-picker-select@*, react-native-picker-select@^9.0.1:
   dependencies:
     lodash.isequal "^4.5.0"
 
-react-native-purchases-ui@*, react-native-purchases-ui@7.22.0:
+react-native-purchases-ui@*:
   version "7.22.0"
   resolved "https://registry.yarnpkg.com/react-native-purchases-ui/-/react-native-purchases-ui-7.22.0.tgz#ffe89527365b7728d507cf266b869b0474f64fad"
   integrity sha512-lnFfT/VNRmBBIhNABC+xZu5zvmO5i3qvvA/Ws0Br3O5vEwlo6UuS97/WEfC8PMV3+Pia4AIlwkPS4cxDGd/HRA==
@@ -8267,12 +8277,27 @@ react-native-purchases-ui@*, react-native-purchases-ui@7.22.0:
     "@revenuecat/purchases-typescript-internal" "8.10.1"
     react-native-purchases "7.22.0"
 
+react-native-purchases-ui@7.24.0:
+  version "7.24.0"
+  resolved "https://registry.yarnpkg.com/react-native-purchases-ui/-/react-native-purchases-ui-7.24.0.tgz#bd03a85b103c3319fa5a8b03bc863ce4c8f7858e"
+  integrity sha512-NCt0jYc1QG7qw3BElD1zAO4Tq+cI/giGjnxyPbkj/foPUAlTmzGoc/si8uEl4WFexm+4cJKOoqEcpfEuYSgeLA==
+  dependencies:
+    "@revenuecat/purchases-typescript-internal" "10.1.0"
+    react-native-purchases "7.24.0"
+
 react-native-purchases@*, react-native-purchases@7.22.0:
   version "7.22.0"
   resolved "https://registry.yarnpkg.com/react-native-purchases/-/react-native-purchases-7.22.0.tgz#68baa6367f49dd02f81884ce8244aa449b3982b7"
   integrity sha512-TqiAK/JUR774kUfLMhVqUZsf11E7qtUdyR+mop+velJ2vFkynuv/iW1Lot4tj2jnl5icWoiOM7keOezkYIdcNQ==
   dependencies:
     "@revenuecat/purchases-typescript-internal" "9.8.0"
+
+react-native-purchases@7.24.0:
+  version "7.24.0"
+  resolved "https://registry.yarnpkg.com/react-native-purchases/-/react-native-purchases-7.24.0.tgz#04cc12a65652334e66b4b91e8d3cd10b29be528b"
+  integrity sha512-jAkzlUJvrMFwvzaz63gztNkl6bdUDR7a3rj+7trFU99Z9yW0KdYMh+AeInNmw46Y7z04DVfe7zGyxsCn/HEQ8A==
+  dependencies:
+    "@revenuecat/purchases-typescript-internal" "10.2.0"
 
 react-native-push-notification@^8.1.1:
   version "8.1.1"
@@ -8352,10 +8377,54 @@ react-native-zip-archive@^6.0.3:
   resolved "https://registry.yarnpkg.com/react-native-zip-archive/-/react-native-zip-archive-6.1.0.tgz#beed62dea9c7ff1e4fd4b6ce0e496ede5ab2f96f"
   integrity sha512-FEt6O8YD/Is48HGXuHndFktod7S2cUdf0C+B2XRHWeS3zs/gXlzOGo1gcwUxdMyqQwEwnFuAqlYvUK4BNGQsDg==
 
-react-native@*, react-native@0.73.5:
+react-native@*:
   version "0.73.5"
   resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.73.5.tgz#724fd1ae8ec8fee1dcf619c82bdd1695d3cff463"
   integrity sha512-iHgDArmF4CrhL0qTj+Rn+CBN5pZWUL9lUGl8ub+V9Hwu/vnzQQh8rTMVSwVd2sV6N76KjpE5a4TfIAHkpIHhKg==
+  dependencies:
+    "@jest/create-cache-key-function" "^29.6.3"
+    "@react-native-community/cli" "12.3.6"
+    "@react-native-community/cli-platform-android" "12.3.6"
+    "@react-native-community/cli-platform-ios" "12.3.6"
+    "@react-native/assets-registry" "0.73.1"
+    "@react-native/codegen" "0.73.3"
+    "@react-native/community-cli-plugin" "0.73.17"
+    "@react-native/gradle-plugin" "0.73.4"
+    "@react-native/js-polyfills" "0.73.1"
+    "@react-native/normalize-colors" "0.73.2"
+    "@react-native/virtualized-lists" "0.73.4"
+    abort-controller "^3.0.0"
+    anser "^1.4.9"
+    ansi-regex "^5.0.0"
+    base64-js "^1.5.1"
+    chalk "^4.0.0"
+    deprecated-react-native-prop-types "^5.0.0"
+    event-target-shim "^5.0.1"
+    flow-enums-runtime "^0.0.6"
+    invariant "^2.2.4"
+    jest-environment-node "^29.6.3"
+    jsc-android "^250231.0.0"
+    memoize-one "^5.0.0"
+    metro-runtime "^0.80.3"
+    metro-source-map "^0.80.3"
+    mkdirp "^0.5.1"
+    nullthrows "^1.1.1"
+    pretty-format "^26.5.2"
+    promise "^8.3.0"
+    react-devtools-core "^4.27.7"
+    react-refresh "^0.14.0"
+    react-shallow-renderer "^16.15.0"
+    regenerator-runtime "^0.13.2"
+    scheduler "0.24.0-canary-efb381bbf-20230505"
+    stacktrace-parser "^0.1.10"
+    whatwg-fetch "^3.0.0"
+    ws "^6.2.2"
+    yargs "^17.6.2"
+
+react-native@0.73.6:
+  version "0.73.6"
+  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.73.6.tgz#ed4c675e205a34bd62c4ce8b9bd1ca5c85126d5b"
+  integrity sha512-oqmZe8D2/VolIzSPZw+oUd6j/bEmeRHwsLn1xLA5wllEYsZ5zNuMsDus235ONOnCRwexqof/J3aztyQswSmiaA==
   dependencies:
     "@jest/create-cache-key-function" "^29.6.3"
     "@react-native-community/cli" "12.3.6"

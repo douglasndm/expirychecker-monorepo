@@ -40,7 +40,8 @@
         "react-native-purchases-ui": "7.24.0",
         "react-native-restart": "^0.0.27",
         "react-native-share": "^10.0.2",
-        "styled-components": "6.1.8"
+        "styled-components": "6.1.8",
+        "xml-js": "^1.6.11"
     },
     "devDependencies": {
         "@babel/core": "^7.20.0",

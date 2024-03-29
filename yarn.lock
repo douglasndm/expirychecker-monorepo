@@ -8156,7 +8156,7 @@ react-native-date-picker@4.3.3:
   resolved "https://registry.yarnpkg.com/react-native-date-picker/-/react-native-date-picker-4.3.3.tgz#5ca4ca10283538ab9307b7f2dc6b83233ded122b"
   integrity sha512-Lq2hGZkwoyCMsxi/uw4KVGu4/xdPZ8AHEx2SU5KY2mipHFpX+r4n5/gXa+rpCRkARJaTFYPZ7S59bT9KMh7fGw==
 
-react-native-device-info@^10.0.2:
+react-native-device-info@*, react-native-device-info@^10.13.1:
   version "10.13.1"
   resolved "https://registry.yarnpkg.com/react-native-device-info/-/react-native-device-info-10.13.1.tgz#f87f44ba7b67933248be10ca302a4f2f6dbbdd4f"
   integrity sha512-j/7Z+Yl9Cesjp8vKaVzbuJQKJSVs4ojXATt5WjwipZ0Ss0mBJjqtbc4x5dfZLmQ4y55VVa7c0v8KHca1iqY/TQ==
@@ -8281,7 +8281,7 @@ react-native-paper@5.12.1:
     color "^3.1.2"
     use-latest-callback "^0.1.5"
 
-react-native-permissions@*, react-native-permissions@^4.1.4:
+react-native-permissions@*:
   version "4.1.4"
   resolved "https://registry.yarnpkg.com/react-native-permissions/-/react-native-permissions-4.1.4.tgz#7e105470acea7fc1748bb36915095fd3304cd9da"
   integrity sha512-el6u90VZNFDEtmHpSheirwRhGvs6M5rSZcoqIqB128IPO00f2c1q+PP4kEaM1u19Q0ldQ+R+S7C/l8Zrduy6JQ==
@@ -8290,6 +8290,11 @@ react-native-permissions@^2.0.2:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/react-native-permissions/-/react-native-permissions-2.2.2.tgz#3d2a63f6b7d6be52fc86e30f77412a9566283028"
   integrity sha512-ihf4shQDSX5Oo9ChQXb9kr13mmyyNem5MaEvOpr3dCjhBOBWyEMztXm9/uPK1Qg5PsNpaYLa1KpcPZDCw87LXg==
+
+react-native-permissions@^4.1.5:
+  version "4.1.5"
+  resolved "https://registry.yarnpkg.com/react-native-permissions/-/react-native-permissions-4.1.5.tgz#db4d1ddbf076570043f4fd4168f54bb6020aec92"
+  integrity sha512-r6VMRacASmtRHS+GZ+5HQCp9p9kiE+UU9magHOZCXZLTJitdTuVHWZRrb4v4oqZGU+zAp3mZhTQftuMMv+WLUg==
 
 react-native-phone-number-input@^2.1.0:
   version "2.1.0"

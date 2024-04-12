@@ -1975,70 +1975,75 @@
   resolved "https://registry.yarnpkg.com/@react-native-community/slider/-/slider-3.0.3.tgz#830167fd757ba70ac638747ba3169b2dbae60330"
   integrity sha512-8IeHfDwJ9/CTUwFs6x90VlobV3BfuPgNLjTgC6dRZovfCWigaZwVNIFFJnHBakK3pW2xErAPwhdvNR4JeNoYbw==
 
-"@react-native-firebase/analytics@19.0.0":
-  version "19.0.0"
-  resolved "https://registry.yarnpkg.com/@react-native-firebase/analytics/-/analytics-19.0.0.tgz#0194ee9ada85745ea118b5d6d22071b43e1ffcce"
-  integrity sha512-kjQwFgtzMwntoNtbQ1Vxr8ca7csCJThIsyeyJFnSq5uxJpU9FaIYp1zMLAgIC+EagcmwfnOT76DW7vkvSREZ4A==
+"@react-native-firebase/analytics@*", "@react-native-firebase/analytics@^19.2.1":
+  version "19.2.1"
+  resolved "https://registry.yarnpkg.com/@react-native-firebase/analytics/-/analytics-19.2.1.tgz#4b69981a428c3e6b582be51fdc4b3ebbeec38c40"
+  integrity sha512-IhHeXnxrhbCd2GeIuvh3XlUTuXA1ltpqx3azJmjzCvLMocMcOMywlSa7uEFiHrqnnoh+Nq6PfHEpcgCOmx0LyA==
 
 "@react-native-firebase/app-check@*":
   version "19.1.2"
   resolved "https://registry.yarnpkg.com/@react-native-firebase/app-check/-/app-check-19.1.2.tgz#53bb82c658b22a52167b55c1e01a4ddd5816c76b"
   integrity sha512-P+LZHvLyBpiwkxiClXuGYQBdAOjo4OjRbah/WGZVpJ8Y3Hp4MioGW1hSwxjSGUVtmgIrvHeq/mnBdzA0V43KrQ==
 
-"@react-native-firebase/app-check@19.0.0":
-  version "19.0.0"
-  resolved "https://registry.yarnpkg.com/@react-native-firebase/app-check/-/app-check-19.0.0.tgz#05d20d2bed79a186830f2cbbeb674f97b73f0a42"
-  integrity sha512-83yH70pEhqBALCKnyX+8GUHqc5lgQNF89Pz6KBUMOXIxFiQhLutJieHEWJJBaAzY1Sb1HFNZEHnPQmb/5BCVcA==
+"@react-native-firebase/app-check@^19.2.1":
+  version "19.2.1"
+  resolved "https://registry.yarnpkg.com/@react-native-firebase/app-check/-/app-check-19.2.1.tgz#0866e7f676027143c1f9d670010ba38e445c833c"
+  integrity sha512-0cO/ghR21wq3dDLrBN/DUvtZ5AZIwnJbfrXXtiAWRDJvDk/PKYhtsMqlkCO2MdAKAOwrbXJnYATcmwtRXz4I6A==
 
-"@react-native-firebase/app@19.0.0":
-  version "19.0.0"
-  resolved "https://registry.yarnpkg.com/@react-native-firebase/app/-/app-19.0.0.tgz#a0368a46d7a142512a47bb645f0e7e4a604c5724"
-  integrity sha512-QcT4fJQjoEmvmRKDiEsLf5MBAgejlBGCAuAgXT/TBxE8/lrLubhlHVokodQvP0trjcVoA8L+HSEQFX2eIc3BPA==
+"@react-native-firebase/app@*", "@react-native-firebase/app@^19.2.1":
+  version "19.2.1"
+  resolved "https://registry.yarnpkg.com/@react-native-firebase/app/-/app-19.2.1.tgz#4571886eb467df43ed48960a7b69edd8fb2b67d1"
+  integrity sha512-3oKJEmB4qhW8MiwP4nR4ddTkbXlvQqcYhZmIUoLPb3/Zc+3hUxjKIrsaKNqxkIfRhMMXDPfPVF1IJj/S4l30+g==
   dependencies:
     opencollective-postinstall "^2.0.3"
     superstruct "^0.6.2"
 
-"@react-native-firebase/auth@19.0.0":
-  version "19.0.0"
-  resolved "https://registry.yarnpkg.com/@react-native-firebase/auth/-/auth-19.0.0.tgz#7afccc524c93658d72d3acd4882eb898d3391ba2"
-  integrity sha512-ekpVuo+TwBr+9PVmRww/03tp3u2EzJBOLvfm5jihBvijYENjgrLQTULroeoY+VXyRC2Du34HcXHFlXx1yvxqgw==
+"@react-native-firebase/auth@*", "@react-native-firebase/auth@^19.2.1":
+  version "19.2.1"
+  resolved "https://registry.yarnpkg.com/@react-native-firebase/auth/-/auth-19.2.1.tgz#09a28512aa9ca667663a3a99086803ddc81fa393"
+  integrity sha512-vvS2fQ2ZIdzEPXKODnO2ioLiigoKpGKDNoqtw0ZECAjL/78FvqdRm+QtP23yWfkIFbN/2R2hsAFJjJBf2ZP0sQ==
   dependencies:
     plist "^3.1.0"
 
-"@react-native-firebase/dynamic-links@19.0.0":
-  version "19.0.0"
-  resolved "https://registry.yarnpkg.com/@react-native-firebase/dynamic-links/-/dynamic-links-19.0.0.tgz#8dc3fc4aa0210a5b74ec19ada18c00c5deab0d17"
-  integrity sha512-tkDJvDB6VrIc1yWz0s44SF5zYUM27j0EWR5fa5dGIBWzICoHPIxzAogtYjhKOKH7rXupPnzzXp6Zv79zbACDKQ==
+"@react-native-firebase/dynamic-links@*":
+  version "19.2.1"
+  resolved "https://registry.yarnpkg.com/@react-native-firebase/dynamic-links/-/dynamic-links-19.2.1.tgz#49ad7edf86082c3ea5d0b1db3abce6b480fc2f4e"
+  integrity sha512-ogny5oL70J6+ykuKqoyDfVSuaHwJ45teYJuuGlol9zRrMUG0RkntLlXSGyM2txDtxerCHg8zwPbVqJ3FS/gcLA==
 
-"@react-native-firebase/firestore@19.0.0":
-  version "19.0.0"
-  resolved "https://registry.yarnpkg.com/@react-native-firebase/firestore/-/firestore-19.0.0.tgz#bdb94e72bd6e13d1a5176db477bec4597a71f1f5"
-  integrity sha512-GZWW1K3xcfs2hGipnACyDbEf49mtSUP3mEeiAZgAileXdGhPfj/uWTfSuTT/XImfepUF1+uhMKlaiGdiQJR8Mw==
+"@react-native-firebase/firestore@*", "@react-native-firebase/firestore@^19.2.1":
+  version "19.2.1"
+  resolved "https://registry.yarnpkg.com/@react-native-firebase/firestore/-/firestore-19.2.1.tgz#bfff0a83ad3d4972892377eec57f19d242f01452"
+  integrity sha512-ySMlZm4kh6aEX/oZoKgYiYHRjYyiFUmWZlsHh3plzsUH52u/u7EOoRWWsNbns+zwFaVxmjzAKn7feYW7Qzm3UA==
 
-"@react-native-firebase/in-app-messaging@19.0.0":
-  version "19.0.0"
-  resolved "https://registry.yarnpkg.com/@react-native-firebase/in-app-messaging/-/in-app-messaging-19.0.0.tgz#1c285483118203a7819f789ba25512fd1e9035e2"
-  integrity sha512-ilHomUgZBCf3wK1paja7LQNZhVaZG+FPrtlyG5c72/rFhlRA8e9fgI2eEVCRhRxFxc3xd7rn/RtJPLPyvOiuxA==
+"@react-native-firebase/in-app-messaging@*", "@react-native-firebase/in-app-messaging@^19.2.1":
+  version "19.2.1"
+  resolved "https://registry.yarnpkg.com/@react-native-firebase/in-app-messaging/-/in-app-messaging-19.2.1.tgz#8e591425c24906428fa43a5ee4c44f4606b09672"
+  integrity sha512-6GQ9KJwLDtsYya/rPOKQp1NzcWvEGDd0oEQoLSZgnRC6g46OTApWmqBbnuG3m0SjOVpBKdgX8I0Rgu8e9/iwuA==
 
-"@react-native-firebase/installations@19.0.0":
-  version "19.0.0"
-  resolved "https://registry.yarnpkg.com/@react-native-firebase/installations/-/installations-19.0.0.tgz#e08bcd97dbffe2483fd81517ebd5ad8f2f550205"
-  integrity sha512-JsUYl7bseHfsQH0NTs8+XonJUJER+xe9SLB9XJJsEWfec8VIIBhW913elhgiXX8uERuMPmcTHDmW4zLFYqNC5g==
+"@react-native-firebase/installations@*", "@react-native-firebase/installations@^19.2.1":
+  version "19.2.1"
+  resolved "https://registry.yarnpkg.com/@react-native-firebase/installations/-/installations-19.2.1.tgz#ccd1f67ab5239f2ea8d32e695351d40338f69a88"
+  integrity sha512-lsmh26s4tnTdWO1vyoyFJLN7wzigLRb4QmhrA2SOh1ah/u9nnacwIXgBVAPc3CQCYn4SSc5kL+nHYml+T52Zaw==
 
-"@react-native-firebase/messaging@19.0.0":
-  version "19.0.0"
-  resolved "https://registry.yarnpkg.com/@react-native-firebase/messaging/-/messaging-19.0.0.tgz#f949dd100e1c391bc0949729e18a83ef03a94276"
-  integrity sha512-KeGQHLhnDThCZZqWm67Qf4NI7qMsUF9eNbrJ39OFeqbinJK2TSQcTZcRPNwfwreCZfkkBdeV3sk0YNPoddlx/w==
+"@react-native-firebase/messaging@*", "@react-native-firebase/messaging@^19.2.1":
+  version "19.2.1"
+  resolved "https://registry.yarnpkg.com/@react-native-firebase/messaging/-/messaging-19.2.1.tgz#1a68f596bef147263df0d767d876380c7ce51afb"
+  integrity sha512-LPQqsZ356sFnI4Et8zff/d2LCBpw6TqNeik5Jf0lPXbkDEmF7L/e40f9bXyeFyzkun5mh3zEz1Hh//6Fqd2DMw==
 
 "@react-native-firebase/remote-config@*":
   version "19.1.2"
   resolved "https://registry.yarnpkg.com/@react-native-firebase/remote-config/-/remote-config-19.1.2.tgz#e55ced26ddf49848fd6831bc1c2dddaf319ca1a6"
   integrity sha512-mKmqdqWHKdqhMTBJNqYBlyfSMY7f2Rm2DE584HLlDacRrg3zaMEGHw2Vs8CTUHvkd4l08GGRdKOYB8EVO280MA==
 
-"@react-native-firebase/remote-config@19.0.0":
-  version "19.0.0"
-  resolved "https://registry.yarnpkg.com/@react-native-firebase/remote-config/-/remote-config-19.0.0.tgz#1f2c8f129642768fe89b2ca84cdd4d45d289d09a"
-  integrity sha512-FQ+kTVp2e+JFejvDbORZZC/yFm2RSffXWb/wBaInPygrDv0BhlOHG2iRg1aBMbLw9LEHnUZqfbgKffhLqmGJKQ==
+"@react-native-firebase/remote-config@^19.2.1":
+  version "19.2.1"
+  resolved "https://registry.yarnpkg.com/@react-native-firebase/remote-config/-/remote-config-19.2.1.tgz#4fda93e82909379b82a94a7ce9b8a69ab97a14fb"
+  integrity sha512-mk0ZFL6w5GCaU6fl6YeIiFKZ02wt/bd0snN+xBWfrY7nII67Z9CWTxGZbgjgP+IsCpDbq4zqNE6d4hKKm27vbA==
+
+"@react-native-firebase/storage@*", "@react-native-firebase/storage@^19.2.1":
+  version "19.2.1"
+  resolved "https://registry.yarnpkg.com/@react-native-firebase/storage/-/storage-19.2.1.tgz#cf7af184a8be1db4e9ed049db6a857b6f1a61224"
+  integrity sha512-5Ax8aezM7f1wW5IRIut5J6TdGBc16quHqrruAndBhbDkwTjShd+h+N9Uzx9XvKLvocu+EDfM5tvQSR79/vzT/g==
 
 "@react-native-masked-view/masked-view@0.2.9":
   version "0.2.9"
@@ -8146,11 +8151,6 @@ react-native-fast-image@^8.5.11:
   version "8.6.3"
   resolved "https://registry.yarnpkg.com/react-native-fast-image/-/react-native-fast-image-8.6.3.tgz#6edc3f9190092a909d636d93eecbcc54a8822255"
   integrity sha512-Sdw4ESidXCXOmQ9EcYguNY2swyoWmx53kym2zRsvi+VeFCHEdkO+WG1DK+6W81juot40bbfLNhkc63QnWtesNg==
-
-react-native-file-access@*:
-  version "3.0.7"
-  resolved "https://registry.yarnpkg.com/react-native-file-access/-/react-native-file-access-3.0.7.tgz#7d2530dc474678849d569bea3284e7579ec9b7e2"
-  integrity sha512-6uqq5om5NNI+g2QAmM5uQqSt3QQgcfkEYbBB9HNNHxOxKtPysNINR+CoYlgeDyFfWQDtTUEBKS0AKy5rup7IEQ==
 
 react-native-flash-message@*, react-native-flash-message@^0.4.2:
   version "0.4.2"

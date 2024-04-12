@@ -2010,11 +2010,6 @@
   resolved "https://registry.yarnpkg.com/@react-native-firebase/dynamic-links/-/dynamic-links-19.2.1.tgz#49ad7edf86082c3ea5d0b1db3abce6b480fc2f4e"
   integrity sha512-ogny5oL70J6+ykuKqoyDfVSuaHwJ45teYJuuGlol9zRrMUG0RkntLlXSGyM2txDtxerCHg8zwPbVqJ3FS/gcLA==
 
-"@react-native-firebase/firestore@*", "@react-native-firebase/firestore@^19.2.1":
-  version "19.2.1"
-  resolved "https://registry.yarnpkg.com/@react-native-firebase/firestore/-/firestore-19.2.1.tgz#bfff0a83ad3d4972892377eec57f19d242f01452"
-  integrity sha512-ySMlZm4kh6aEX/oZoKgYiYHRjYyiFUmWZlsHh3plzsUH52u/u7EOoRWWsNbns+zwFaVxmjzAKn7feYW7Qzm3UA==
-
 "@react-native-firebase/in-app-messaging@*", "@react-native-firebase/in-app-messaging@^19.2.1":
   version "19.2.1"
   resolved "https://registry.yarnpkg.com/@react-native-firebase/in-app-messaging/-/in-app-messaging-19.2.1.tgz#8e591425c24906428fa43a5ee4c44f4606b09672"

@@ -26,7 +26,8 @@
         "react",
         "@typescript-eslint",
         "prettier",
-        "react-hooks"
+        "react-hooks",
+        "jest"
     ],
     "rules": {
         "react/prop-types": "off",

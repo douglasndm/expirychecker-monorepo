@@ -9,3 +9,21 @@ yarn-error.log
 
 # testing
 /coverage
+
+**/.DS_Store
+
+**/.xcode.env.local
+
+*.jsbundle
+
+# Ruby / CocoaPods
+**/Pods/
+/vendor/bundle/
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions

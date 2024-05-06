@@ -2489,6 +2489,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@notifee/react-native@npm:*":
+  version: 8.0.0
+  resolution: "@notifee/react-native@npm:8.0.0"
+  peerDependencies:
+    react-native: "*"
+  checksum: b2a7240731ba8b51c02102c742eda5654257b0dbc84c0bc70e3abafa1aec94c0e74e6c3df4818ac9b18d212473a3f39322a30e580431971c97ce2277602938e0
+  languageName: node
+  linkType: hard
+
+"@notifee/react-native@npm:^7.8.2":
+  version: 7.8.2
+  resolution: "@notifee/react-native@npm:7.8.2"
+  peerDependencies:
+    react-native: "*"
+  checksum: f3b3ea116653d4dc7b50f8124898f9e22567ae30306225841d2057bc9ce40d451b15436dff3e60e0e042ffd7f34338054b202cd2dc61c5dc5eab7676b625b9f9
+  languageName: node
+  linkType: hard
+
 "@npmcli/agent@npm:^2.0.0":
   version: 2.2.2
   resolution: "@npmcli/agent@npm:2.2.2"
@@ -5450,6 +5468,7 @@ __metadata:
     "@bugsnag/plugin-react-navigation": "*"
     "@bugsnag/react-native": "*"
     "@bugsnag/source-maps": "*"
+    "@notifee/react-native": "*"
     "@react-native-async-storage/async-storage": "*"
     "@react-native-clipboard/clipboard": "*"
     "@react-native-community/blur": "*"
@@ -6965,6 +6984,7 @@ __metadata:
     "@bugsnag/plugin-react-navigation": 7.19.0
     "@bugsnag/react-native": ^7.22.7
     "@bugsnag/source-maps": ^2.3.1
+    "@notifee/react-native": ^7.8.2
     "@react-native-async-storage/async-storage": ^1.22.3
     "@react-native-clipboard/clipboard": ^1.14.0
     "@react-native-community/blur": ^4.2.0

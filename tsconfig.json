@@ -1,5 +1,6 @@
 {
-  "compilerOptions": {
+    "extends": "@react-native/typescript-config/tsconfig.json",
+    "compilerOptions": {
     /* Visit https://aka.ms/tsconfig to read more about this file */
 
     /* Projects */
@@ -26,9 +27,21 @@
 
     /* Modules */
     "module": "commonjs",                                /* Specify what module code is generated. */
-    // "rootDir": "./",                                  /* Specify the root folder within your source files. */
+    "rootDir": "./",                                     /* Specify the root folder within your source files. */
     // "moduleResolution": "node",                       /* Specify how TypeScript looks up a file from a given module specifier. */
-    "baseUrl": "./",                                  /* Specify the base directory to resolve non-relative module names. */
+    "baseUrl": "./",                                     /* Specify the base directory to resolve non-relative module names. */
+    "paths": {
+        "@assets/*": ["./packages/shared/src/Assets/*"],
+        "@components/*": ["./packages/shared/src/Components/*"],
+        "@utils/*": ["./packages/shared/src/Utils/*"],
+        "@views/*": ["./packages/shared/src/Views/*"],
+        "@themes/*": ["./packages/shared/src/Themes/*"],
+        "@services/*": ["./packages/shared/src/Services/*"],
+        "@styles/*": ["./packages/shared/src/Styles/*"],
+        "@shared/*": ["./packages/shared/src/*"],
+        "@expirychecker/*": ["./packages/expirychecker/src/*"],
+        "@teams/*": ["./packages/teams/src/*"],
+    },
     // "paths": {},                                      /* Specify a set of entries that re-map imports to additional lookup locations. */
     // "rootDirs": [],                                   /* Allow multiple folders to be treated as one when resolving modules. */
     // "typeRoots": [],                                  /* Specify multiple folders that act like './node_modules/@types'. */
@@ -99,16 +112,16 @@
     /* Completeness */
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
-  },
-  "references": [
-    {
-        "path": "./packages/expirychecker"
     },
-    {
-        "path": "./packages/teams"
-    },
-    {
-        "path": "./packages/shared"
-    },
-]
+    "references": [
+        {
+            "path": "./packages/expirychecker"
+        },
+        {
+            "path": "./packages/teams"
+        },
+        {
+            "path": "./packages/shared"
+        },
+    ]
 }

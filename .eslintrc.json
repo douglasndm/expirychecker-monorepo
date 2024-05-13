@@ -30,6 +30,7 @@
         "jest"
     ],
     "rules": {
+        "react-native/no-inline-styles": "off",
         "react/prop-types": "off",
         "react/jsx-props-no-spreading": "off",
         "@typescript-eslint/no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],

@@ -1,33 +1,17 @@
 {
-    "env": {
-        "es2020": true,
-        "jest": true
-    },
     "globals": {
         "__DEV__": "readonly"
     },
     "extends": [
         "@react-native",
         "plugin:react/recommended",
-        "plugin:@typescript-eslint/recommended",
-        "airbnb",
         "prettier",
         "prettier/react"
     ],
-    "parser": "@typescript-eslint/parser",
-    "parserOptions": {
-        "ecmaFeatures": {
-            "jsx": true
-        },
-        "ecmaVersion": 11,
-        "sourceType": "module"
-    },
     "plugins": [
         "react",
-        "@typescript-eslint",
         "prettier",
-        "react-hooks",
-        "jest"
+        "react-hooks"
     ],
     "rules": {
         "react-native/no-inline-styles": "off",

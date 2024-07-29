@@ -1,6 +1,11 @@
 /node_modules/
 **/.yarn
 
+# Include patches to git
+!/.yarn/patches/
+!/.yarn/patches/*
+!/.yarn/patches/**/*
+
 yarn-error.log
 
 **/.DS_Store

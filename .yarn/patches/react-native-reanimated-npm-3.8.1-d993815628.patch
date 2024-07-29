@@ -1,0 +1,22 @@
+diff --git a/android/build.gradle b/android/build.gradle
+index 2969d8ccdafc69ba97dca534469287bb569e29c1..e59f788c3b86babb7eb11aa0c178899321a79062 100644
+--- a/android/build.gradle
++++ b/android/build.gradle
+@@ -70,7 +70,7 @@ def isNewArchitectureEnabled() {
+ }
+ 
+ def resolveReactNativeDirectory() {
+-    def reactNativeLocation = safeAppExtGet("REACT_NATIVE_NODE_MODULES_DIR", null)
++    def reactNativeLocation = safeAppExtGet("reactNativeDir", null)
+     if (reactNativeLocation != null) {
+         return file(reactNativeLocation)
+     }
+@@ -92,7 +92,7 @@ def resolveReactNativeDirectory() {
+     }
+ 
+     throw new GradleException(
+-        "[Reanimated] Unable to resolve react-native location in node_modules. You should project extension property (in `app/build.gradle`) `REACT_NATIVE_NODE_MODULES_DIR` with path to react-native."
++        "[Reanimated] Unable to resolve react-native location in node_modules. You should project extension property (in `app/build.gradle`) `reactNativeDir` with path to react-native."
+     )
+ }
+ 

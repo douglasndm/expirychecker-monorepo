@@ -1,0 +1,13 @@
+diff --git a/android/build.gradle b/android/build.gradle
+index ab6f320770d132e2b8cb588114fbc26919e6721b..2f3fb8e273deebdb199d000d26b1db28e4cfacd3 100644
+--- a/android/build.gradle
++++ b/android/build.gradle
+@@ -104,7 +104,7 @@ def safeExtGet(prop, fallback) {
+ }
+ 
+ def resolveReactNativeDirectory() {
+-    def reactNativeLocation = safeExtGet("REACT_NATIVE_NODE_MODULES_DIR", null)
++    def reactNativeLocation = safeExtGet("reactNativeDir", null)
+     if (reactNativeLocation != null) {
+         return file(reactNativeLocation)
+     }

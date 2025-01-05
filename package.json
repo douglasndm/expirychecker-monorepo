@@ -19,7 +19,6 @@
     },
     "dependencies": {
         "@react-native-firebase/storage": "^21.6.2",
-        "axios": "^1.7.7",
         "react-native-bootsplash": "^5.5.3",
         "react-native-qrcode-scanner": "^1.5.5",
         "react-native-restart": "^0.0.27",
@@ -53,7 +52,8 @@
     "resolutions": {
         "react-native-image-picker@^7.1.2": "patch:react-native-image-picker@npm%3A7.1.2#./.yarn/patches/react-native-image-picker-npm-7.1.2-0ce7c9fe95.patch",
         "react-native-camera-kit@^13.0.0": "patch:react-native-camera-kit@npm%3A13.0.0#./.yarn/patches/react-native-camera-kit-npm-13.0.0-d315151bff.patch",
-        "react-native-image-picker@*": "patch:react-native-image-picker@npm%3A7.1.2#./.yarn/patches/react-native-image-picker-npm-7.1.2-0ce7c9fe95.patch"
+        "react-native-image-picker@*": "patch:react-native-image-picker@npm%3A7.1.2#./.yarn/patches/react-native-image-picker-npm-7.1.2-0ce7c9fe95.patch",
+        "styled-components": "^5"
     },
     "packageManager": "yarn@4.6.0"
 }

@@ -6973,7 +6973,7 @@ __metadata:
     react: "npm:18.3.1"
     react-native: "npm:0.76.5"
     react-native-app-intro-slider: "npm:^4.0.4"
-    react-native-bootsplash: "npm:*"
+    react-native-bootsplash: "npm:^5.5.3"
     react-native-bouncy-checkbox: "npm:^4.1.2"
     react-native-camera-kit: "npm:^14.1.0"
     react-native-config: "npm:^1.5.3"

@@ -50,10 +50,8 @@
         "node": ">=20"
     },
     "resolutions": {
-        "react-native-image-picker@^7.1.2": "patch:react-native-image-picker@npm%3A7.1.2#./.yarn/patches/react-native-image-picker-npm-7.1.2-0ce7c9fe95.patch",
         "react-native-camera-kit@^13.0.0": "patch:react-native-camera-kit@npm%3A13.0.0#./.yarn/patches/react-native-camera-kit-npm-13.0.0-d315151bff.patch",
-        "react-native-image-picker@*": "patch:react-native-image-picker@npm%3A7.1.2#./.yarn/patches/react-native-image-picker-npm-7.1.2-0ce7c9fe95.patch",
-        "styled-components": "^5"
+        "styled-components": "^6"
     },
     "packageManager": "yarn@4.6.0"
 }

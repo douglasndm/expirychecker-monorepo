@@ -7004,6 +7004,7 @@ __metadata:
     react-native-zip-archive: "npm:^7.0.1"
     react-number-format: "npm:^5.4.3"
     react-test-renderer: "npm:18.3.1"
+    reactotron-react-native: "npm:^5.1.12"
     shared: "npm:^1.0.0"
     styled-components: "npm:6.1.13"
     stylis: "npm:^4.0.0"
@@ -9890,6 +9891,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mitt@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "mitt@npm:3.0.1"
+  checksum: 10c0/3ab4fdecf3be8c5255536faa07064d05caa3dd332bd318ff02e04621f7b3069ca1de9106cfe8e7ced675abfc2bec2ce4c4ef321c4a1bb1fb29df8ae090741913
+  languageName: node
+  linkType: hard
+
 "mkdirp-classic@npm:^0.5.2, mkdirp-classic@npm:^0.5.3":
   version: 0.5.3
   resolution: "mkdirp-classic@npm:0.5.3"
@@ -11169,11 +11177,11 @@ __metadata:
 
 "react-native-image-picker@patch:react-native-image-picker@npm%3A7.2.3#~/.yarn/patches/react-native-image-picker-npm-7.2.3-47a68444e1.patch":
   version: 7.2.3
-  resolution: "react-native-image-picker@patch:react-native-image-picker@npm%3A7.2.3#~/.yarn/patches/react-native-image-picker-npm-7.2.3-47a68444e1.patch::version=7.2.3&hash=24861f"
+  resolution: "react-native-image-picker@patch:react-native-image-picker@npm%3A7.2.3#~/.yarn/patches/react-native-image-picker-npm-7.2.3-47a68444e1.patch::version=7.2.3&hash=31011f"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 10c0/ec03f5b72fee52eb3b02e5c2a7eb54e20fef65eea8df36dc64a2108381637453c6899f82bbb11bdc25f13ff421cf564f08a3e208477e878b17b10b8ea7651e1f
+  checksum: 10c0/db60dd35daa37a85d6f5b34cdacbdaa25a8bf423855211c5d88c861b1d08e0a6dcb63888e05386e10bb08acc57f23f20fa445cc188b2e065bc3cd7d668a7f858
   languageName: node
   linkType: hard
 
@@ -11550,6 +11558,34 @@ __metadata:
   dependencies:
     loose-envify: "npm:^1.1.0"
   checksum: 10c0/283e8c5efcf37802c9d1ce767f302dd569dd97a70d9bb8c7be79a789b9902451e0d16334b05d73299b20f048cbc3c7d288bbbde10b701fa194e2089c237dbea3
+  languageName: node
+  linkType: hard
+
+"reactotron-core-client@npm:2.9.7":
+  version: 2.9.7
+  resolution: "reactotron-core-client@npm:2.9.7"
+  dependencies:
+    reactotron-core-contract: "npm:0.2.5"
+  checksum: 10c0/c18f93761feeadd043461b59ad0dee748d8a6ab0ac01beecda9653fdd190e15ecccd55d246a8ac25058f2b74b4d62ff07861f3fb0856d1995418b45886170485
+  languageName: node
+  linkType: hard
+
+"reactotron-core-contract@npm:0.2.5":
+  version: 0.2.5
+  resolution: "reactotron-core-contract@npm:0.2.5"
+  checksum: 10c0/4cf35d9f5e442bbbd32346f9b9ae26e4dd2400ffb9abc618d039df3b3398eaef1fb59c9df04703d6da4e2786f2922454a454c5522c055c8300146da3d6754508
+  languageName: node
+  linkType: hard
+
+"reactotron-react-native@npm:^5.1.12":
+  version: 5.1.12
+  resolution: "reactotron-react-native@npm:5.1.12"
+  dependencies:
+    mitt: "npm:^3.0.1"
+    reactotron-core-client: "npm:2.9.7"
+  peerDependencies:
+    react-native: ">=0.40.0"
+  checksum: 10c0/2ff62e132a6b611bee39e294b63f56ab7695d0e0e94354b849efc4f19664b39298f64971aca187dff85c97c6410b5f15eb39b4af42c7d6478d5d61703d474912
   languageName: node
   linkType: hard
 

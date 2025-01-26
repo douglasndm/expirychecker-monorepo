@@ -3284,26 +3284,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-firebase/remote-config@npm:*":
-  version: 21.7.0
-  resolution: "@react-native-firebase/remote-config@npm:21.7.0"
-  peerDependencies:
-    "@react-native-firebase/analytics": 21.7.0
-    "@react-native-firebase/app": 21.7.0
-  checksum: 10c0/be41436bb98a390c3e02a1532b10e703ae1f0da4b59e1d18368a63f5703a1979a8eb68b1c6850d4ae3584ab0780a1db38c20253f9252ead4d68cc97f0402e1ef
-  languageName: node
-  linkType: hard
-
-"@react-native-firebase/remote-config@npm:^21.7.1":
-  version: 21.7.1
-  resolution: "@react-native-firebase/remote-config@npm:21.7.1"
-  peerDependencies:
-    "@react-native-firebase/analytics": 21.7.1
-    "@react-native-firebase/app": 21.7.1
-  checksum: 10c0/143e5ad0d31ced671429f364a392ca4f8311d353374a79b05084f5ce7c4e4e7d87616a4cead3ede495ee85d77aad2c0ed808bb4af233ebc2145116aa8f937789
-  languageName: node
-  linkType: hard
-
 "@react-native-firebase/storage@npm:^21.7.1":
   version: 21.7.1
   resolution: "@react-native-firebase/storage@npm:21.7.1"
@@ -5774,7 +5754,6 @@ __metadata:
     "@react-native-firebase/auth": "npm:^21.7.1"
     "@react-native-firebase/installations": "npm:^21.7.1"
     "@react-native-firebase/messaging": "npm:^21.7.1"
-    "@react-native-firebase/remote-config": "npm:^21.7.1"
     "@react-native-firebase/storage": "npm:^21.7.1"
     "@react-native-masked-view/masked-view": "npm:^0.3.2"
     "@react-native-picker/picker": "npm:^2.11.0"
@@ -6969,7 +6948,6 @@ __metadata:
     "@react-native-firebase/auth": "npm:^21.7.1"
     "@react-native-firebase/installations": "npm:^21.7.1"
     "@react-native-firebase/messaging": "npm:^21.7.1"
-    "@react-native-firebase/remote-config": "npm:^21.7.1"
     "@react-native-masked-view/masked-view": "npm:^0.3.2"
     "@react-native-picker/picker": "npm:^2.11.0"
     "@react-native/babel-preset": "npm:0.76.6"
@@ -12203,7 +12181,6 @@ __metadata:
     "@notifee/react-native": "npm:*"
     "@react-native-community/netinfo": "npm:*"
     "@react-native-firebase/app-check": "npm:*"
-    "@react-native-firebase/remote-config": "npm:*"
     "@sentry/react-native": "npm:*"
     "@testing-library/react-native": "npm:^12.0.1"
     "@types/jest": "npm:29.5.12"

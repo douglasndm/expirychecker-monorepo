@@ -6913,6 +6913,7 @@ __metadata:
     react-native-purchases-ui: "npm:^7.28.1"
     react-native-qrcode-scanner: "npm:^1.5.5"
     react-native-reanimated: "npm:^3.16.7"
+    react-native-restart: "npm:^0.0.27"
     react-native-safe-area-context: "npm:^5.1.0"
     react-native-screens: "npm:^4.5.0"
     react-native-share: "npm:^12.0.3"

@@ -1,46 +1,46 @@
 {
-    "name": "expirychecker",
-    "version": "1.0.0",
-    "main": "index.js",
-    "license": "MIT",
-    "private": true,
-    "workspaces": [
-        "packages/*"
-    ],
-    "installConfig": {
-        "hoistingLimits": "workspaces"
-    },
-    "scripts": {
-        "clean-cache": "rm -rf node_modules **/node_modules && rm -rf yarn.lock **/yarn.lock && yarn cache clean && yarn install"
-    },
-    "dependencies": {
-        "xlsx": "^0.17.5",
-        "xml-js": "^1.6.11"
-    },
-    "devDependencies": {
-        "@babel/preset-typescript": "^7.16.7",
-        "@tsconfig/react-native": "^3.0.0",
-        "@types/metro-config": "^0.76.3",
-        "@types/react": "^18.2.6",
-        "@types/react-test-renderer": "^18.0.0",
-        "babel-jest": "^29.6.3",
-        "babel-plugin-jest-hoist": "29.6.3",
-        "babel-plugin-module-resolver": "^4.1.0",
-        "eslint": "^8.19.0",
-        "eslint-config-prettier": "^6.11.0",
-        "eslint-plugin-prettier": "^3.1.4",
-        "eslint-plugin-react": "^7.19.0",
-        "eslint-plugin-react-hooks": "^4.6.0",
-        "jest": "^29.6.3",
-        "prettier": "2.8.8",
-        "react-test-renderer": "18.3.1",
-        "typescript": "^5.7.3"
-    },
-    "engines": {
-        "node": ">=20"
-    },
-    "resolutions": {
-        "react-native-camera-kit@^13.0.0": "patch:react-native-camera-kit@npm%3A13.0.0#./.yarn/patches/react-native-camera-kit-npm-13.0.0-d315151bff.patch"
-    },
-    "packageManager": "yarn@4.6.0"
+	"name": "expirychecker-monorepo",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"private": true,
+	"workspaces": [
+		"packages/*"
+	],
+	"installConfig": {
+		"hoistingLimits": "workspaces"
+	},
+	"scripts": {
+		"clean-cache": "rm -rf node_modules **/node_modules && rm -rf yarn.lock **/yarn.lock && yarn cache clean && yarn install"
+	},
+	"dependencies": {
+		"xlsx": "^0.17.5",
+		"xml-js": "^1.6.11"
+	},
+	"devDependencies": {
+		"@babel/preset-typescript": "^7.16.7",
+		"@tsconfig/react-native": "^3.0.0",
+		"@types/metro-config": "^0.76.3",
+		"@types/react": "^18.2.6",
+		"@types/react-test-renderer": "^18.0.0",
+		"babel-jest": "^29.6.3",
+		"babel-plugin-jest-hoist": "29.6.3",
+		"babel-plugin-module-resolver": "^4.1.0",
+		"eslint": "^8.19.0",
+		"eslint-config-prettier": "^6.11.0",
+		"eslint-plugin-prettier": "^3.1.4",
+		"eslint-plugin-react": "^7.19.0",
+		"eslint-plugin-react-hooks": "^4.6.0",
+		"jest": "^29.6.3",
+		"prettier": "2.8.8",
+		"react-test-renderer": "18.3.1",
+		"typescript": "^5.7.3"
+	},
+	"engines": {
+		"node": ">=20"
+	},
+	"resolutions": {
+		"react-native-camera-kit@^13.0.0": "patch:react-native-camera-kit@npm%3A13.0.0#./.yarn/patches/react-native-camera-kit-npm-13.0.0-d315151bff.patch"
+	},
+	"packageManager": "yarn@4.6.0"
 }

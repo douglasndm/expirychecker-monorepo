@@ -1,10 +1,4 @@
 /node_modules/
-**/.yarn
-
-# Include patches to git
-!/.yarn/patches/
-!/.yarn/patches/*
-!/.yarn/patches/**/*
 
 yarn-error.log
 
@@ -29,6 +23,7 @@ yarn-error.log
 .yarn/*
 !.yarn/patches
 !.yarn/plugins
-!.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+./yarn/releases/*

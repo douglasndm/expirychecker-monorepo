@@ -36,8 +36,5 @@
 	"engines": {
 		"node": ">=20"
 	},
-	"resolutions": {
-		"react-native-camera-kit@^13.0.0": "patch:react-native-camera-kit@npm%3A13.0.0#./.yarn/patches/react-native-camera-kit-npm-13.0.0-d315151bff.patch"
-	},
 	"packageManager": "yarn@4.6.0"
 }

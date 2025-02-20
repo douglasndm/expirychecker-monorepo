@@ -1,0 +1,40 @@
+diff --git a/android/src/oldarch/com/facebook/react/viewmanagers/RNGoogleMobileAdsMediaViewManagerDelegate.java b/android/src/oldarch/com/facebook/react/viewmanagers/RNGoogleMobileAdsMediaViewManagerDelegate.java
+index 10379f258940637bf1a29e00f52687a91bdba687..04d8f1fc8a7885a1632b2152403d8b891e4e8962 100644
+--- a/android/src/oldarch/com/facebook/react/viewmanagers/RNGoogleMobileAdsMediaViewManagerDelegate.java
++++ b/android/src/oldarch/com/facebook/react/viewmanagers/RNGoogleMobileAdsMediaViewManagerDelegate.java
+@@ -3,12 +3,13 @@ package com.facebook.react.viewmanagers;
+ import android.view.View;
+ import androidx.annotation.NonNull;
+ import androidx.annotation.Nullable;
++import com.facebook.react.uimanager.BaseViewManager;
+ import com.facebook.react.uimanager.BaseViewManagerDelegate;
+-import com.facebook.react.uimanager.BaseViewManagerInterface;
++import com.facebook.react.uimanager.LayoutShadowNode;
+ 
+ public class RNGoogleMobileAdsMediaViewManagerDelegate<
+         T extends View,
+-        U extends BaseViewManagerInterface<T> & RNGoogleMobileAdsMediaViewManagerInterface<T>>
++        U extends BaseViewManager<T, ? extends LayoutShadowNode> & RNGoogleMobileAdsMediaViewManagerInterface<T>>
+     extends BaseViewManagerDelegate<T, U> {
+   public RNGoogleMobileAdsMediaViewManagerDelegate(U viewManager) {
+     super(viewManager);
+diff --git a/android/src/oldarch/com/facebook/react/viewmanagers/RNGoogleMobileAdsNativeViewManagerDelegate.java b/android/src/oldarch/com/facebook/react/viewmanagers/RNGoogleMobileAdsNativeViewManagerDelegate.java
+index f108b8d4a4d6b6b77719ac175ba73885ec88c2d3..7123cb1df786e21b7584bb61ecf7d768f1e23ee8 100644
+--- a/android/src/oldarch/com/facebook/react/viewmanagers/RNGoogleMobileAdsNativeViewManagerDelegate.java
++++ b/android/src/oldarch/com/facebook/react/viewmanagers/RNGoogleMobileAdsNativeViewManagerDelegate.java
+@@ -4,12 +4,13 @@ import android.view.View;
+ import androidx.annotation.NonNull;
+ import androidx.annotation.Nullable;
+ import com.facebook.react.bridge.ReadableArray;
++import com.facebook.react.uimanager.BaseViewManager;
+ import com.facebook.react.uimanager.BaseViewManagerDelegate;
+-import com.facebook.react.uimanager.BaseViewManagerInterface;
++import com.facebook.react.uimanager.LayoutShadowNode;
+ 
+ public class RNGoogleMobileAdsNativeViewManagerDelegate<
+         T extends View,
+-        U extends BaseViewManagerInterface<T> & RNGoogleMobileAdsNativeViewManagerInterface<T>>
++        U extends BaseViewManager<T, ? extends LayoutShadowNode> & RNGoogleMobileAdsNativeViewManagerInterface<T>>
+     extends BaseViewManagerDelegate<T, U> {
+   public RNGoogleMobileAdsNativeViewManagerDelegate(U viewManager) {
+     super(viewManager);

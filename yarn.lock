@@ -6894,6 +6894,7 @@ __metadata:
     react-native-bootsplash: "npm:^6.3.3"
     react-native-camera-kit: "npm:^14.2.0"
     react-native-config: "npm:^1.5.5"
+    react-native-context-menu-view: "npm:^1.18.0"
     react-native-currency-input: "npm:1.1.1"
     react-native-device-info: "npm:^14.0.4"
     react-native-drawer-layout: "npm:^4.1.1"
@@ -10802,6 +10803,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-native-context-menu-view@npm:^1.18.0":
+  version: 1.18.0
+  resolution: "react-native-context-menu-view@npm:1.18.0"
+  peerDependencies:
+    react: ^16.8.1 || ^17.0.0 || ^18.0.0
+    react-native: ">=0.60.0-rc.0 <1.0.x"
+  checksum: 10c0/b02b82c134820d79df8849adc70d8e7413bde24f7cc2fa05c5f654207f12e98785d195c8361554839cff3201c8dc9ecd7dab93a3deef3b0354268459c21f9c38
+  languageName: node
+  linkType: hard
+
 "react-native-currency-input@npm:1.1.1":
   version: 1.1.1
   resolution: "react-native-currency-input@npm:1.1.1"
@@ -11957,6 +11968,7 @@ __metadata:
     react-native-bootsplash: "*"
     react-native-camera-kit: "*"
     react-native-config: "*"
+    react-native-context-menu-view: "*"
     react-native-device-info: "*"
     react-native-flash-message: "*"
     react-native-fs: "*"

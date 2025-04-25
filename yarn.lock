@@ -1504,6 +1504,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@bwip-js/react-native@npm:^4.6.0":
+  version: 4.6.0
+  resolution: "@bwip-js/react-native@npm:4.6.0"
+  dependencies:
+    react-zlib-js: "npm:^1.0.5"
+  checksum: 10c0/44db3af646cb196e89bc24e7aefa91b03b21d62d79b6d1b0a6fbd26caa8f10237af6874d6e58011c8f219a6fb3763089dd5767e771b2212786120d257bd25bcd
+  languageName: node
+  linkType: hard
+
 "@callstack/react-theme-provider@npm:^3.0.9":
   version: 3.0.9
   resolution: "@callstack/react-theme-provider@npm:3.0.9"
@@ -6823,6 +6832,7 @@ __metadata:
     "@babel/preset-env": "npm:^7.25.3"
     "@babel/runtime": "npm:^7.25.0"
     "@bam.tech/react-native-image-resizer": "npm:^3.0.11"
+    "@bwip-js/react-native": "npm:^4.6.0"
     "@notifee/react-native": "npm:^9.1.8"
     "@react-native-async-storage/async-storage": "npm:^2.1.2"
     "@react-native-clipboard/clipboard": "npm:^1.16.2"
@@ -6906,7 +6916,7 @@ __metadata:
     react-number-format: "npm:^5.4.3"
     react-test-renderer: "npm:19.0.0"
     reactotron-react-native: "npm:^5.1.13"
-    realm: "npm:^12.11.0"
+    realm: "npm:^12.14.2"
     shared: "npm:^1.0.0"
     styled-components: "patch:styled-components@npm%3A6.1.17#~/.yarn/patches/styled-components-npm-6.1.17-8947f06c67.patch"
     ts-jest: "npm:^27.1.4"
@@ -11502,6 +11512,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-zlib-js@npm:^1.0.5":
+  version: 1.0.5
+  resolution: "react-zlib-js@npm:1.0.5"
+  checksum: 10c0/df87a703c2c12e3156007e06339db37490af5583e5cf88c0adeb579bb1a553a22b1264dd81c3793d52e656ef75f0dc94c158fa4d1e1e9c5d331cbd6ea4fa4d51
+  languageName: node
+  linkType: hard
+
 "react@npm:19.0.0":
   version: 19.0.0
   resolution: "react@npm:19.0.0"
@@ -11548,9 +11565,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"realm@npm:^12.11.0":
-  version: 12.14.1
-  resolution: "realm@npm:12.14.1"
+"realm@npm:^12.14.2":
+  version: 12.14.2
+  resolution: "realm@npm:12.14.2"
   dependencies:
     "@realm/fetch": "npm:^0.1.1"
     bson: "npm:^4.7.2"
@@ -11564,7 +11581,7 @@ __metadata:
   peerDependenciesMeta:
     react-native:
       optional: true
-  checksum: 10c0/448a119b4457f3e89ae7e10b4fd92a7adf1bf61b6db517f274fa06cef8e5a3fb145b1e28ad887da951210e6eeeb64bb2bb606e6f2b82b742571a62038a49d082
+  checksum: 10c0/80f582862811d75452b2e2e624ed29e7aa5388e60f48eff4eeacd50a1bd6fd3ac1cc7d6979212ba73a08ff1f765f900f0c7b594c2c296a9f4eaf9b62276b5b48
   languageName: node
   linkType: hard
 

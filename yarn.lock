@@ -12073,6 +12073,7 @@ __metadata:
     "@react-native-firebase/analytics": "*"
     "@react-native-firebase/app-check": "*"
     "@react-native-firebase/auth": "*"
+    "@react-native-firebase/firestore": "*"
     "@react-native-firebase/installations": "*"
     "@react-native-firebase/messaging": "*"
     "@react-native-firebase/storage": "*"

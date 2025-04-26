@@ -12071,6 +12071,7 @@ __metadata:
     "@react-native-async-storage/async-storage": "*"
     "@react-native-community/netinfo": "*"
     "@react-native-firebase/analytics": "*"
+    "@react-native-firebase/app": "*"
     "@react-native-firebase/app-check": "*"
     "@react-native-firebase/auth": "*"
     "@react-native-firebase/firestore": "*"

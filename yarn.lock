@@ -6813,6 +6813,7 @@ __metadata:
     babel-plugin-react-compiler: "npm:19.0.0-beta-aeaed83-20250323"
     babel-plugin-styled-components: "npm:^2.1.4"
     date-fns: "npm:^4.1.0"
+    eslint-plugin-react-hooks: "npm:^6.0.0-rc.1"
     jetifier: "npm:^1.6.6"
     lottie-react-native: "npm:^7.2.2"
     polished: "npm:^4.3.1"
@@ -6952,7 +6953,7 @@ __metadata:
     react-native-format-currency: "npm:0.0.5"
     react-native-fs: "npm:2.20.0"
     react-native-gesture-handler: "npm:^2.25.0"
-    react-native-google-mobile-ads: "npm:14.11.0"
+    react-native-google-mobile-ads: "npm:14.9.0"
     react-native-html-to-pdf: "npm:^0.12.0"
     react-native-image-picker: "npm:^8.1.0"
     react-native-in-app-review: "npm:^4.3.5"
@@ -11130,9 +11131,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-google-mobile-ads@npm:14.11.0":
-  version: 14.11.0
-  resolution: "react-native-google-mobile-ads@npm:14.11.0"
+"react-native-google-mobile-ads@npm:14.9.0":
+  version: 14.9.0
+  resolution: "react-native-google-mobile-ads@npm:14.9.0"
   dependencies:
     "@iabtcf/core": "npm:^1.5.3"
     use-deep-compare-effect: "npm:^1.8.1"
@@ -11141,7 +11142,7 @@ __metadata:
   peerDependenciesMeta:
     expo:
       optional: true
-  checksum: 10c0/5d424081fc14f1da9d495cdf26109fb0d55c5d1599fb651d5117f36357eab0334e61701557046e1f58b84e4cafa480dcf6ac13071641188950fcdcf10f00e2c4
+  checksum: 10c0/587ce027b76c4386e47f54569c2889ebbe707f423081d2493dbf9167eeb7dcd8c6b86ae2b6ab19507a7b4f63b5adc0cc5a3a119ba6a085d975dc94adc0b84fcc
   languageName: node
   linkType: hard
 

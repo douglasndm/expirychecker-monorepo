@@ -21,7 +21,7 @@
 		"babel-plugin-jest-hoist": "29.6.3",
 		"babel-plugin-module-resolver": "^4.1.0",
 		"jest": "^29.6.3",
-		"typescript": "^5.7.3"
+		"typescript": "^5.8.3"
 	},
 	"engines": {
 		"node": ">=20"

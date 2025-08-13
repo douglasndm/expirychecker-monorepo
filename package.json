@@ -11,7 +11,7 @@
 		"hoistingLimits": "workspaces"
 	},
 	"scripts": {
-		"clean-cache": "rm -rf node_modules **/node_modules && rm -rf yarn.lock **/yarn.lock && yarn cache clean && yarn install"
+		"clean-cache": "rm -rf node_modules **/node_modules && rm -rf yarn.lock **/yarn.lock && yarn cache clean"
 	},
 	"devDependencies": {
 		"@babel/preset-typescript": "^7.16.7",

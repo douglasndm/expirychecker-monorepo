@@ -675,12 +675,6 @@ importers:
       stylis:
         specifier: ^4.0.0
         version: 4.3.6
-      xlsx:
-        specifier: ^0.18.5
-        version: 0.18.5
-      xml-js:
-        specifier: ^1.6.11
-        version: 1.6.11
       yup:
         specifier: ^1.6.1
         version: 1.7.0
@@ -8051,9 +8045,7 @@ snapshots:
       metro-runtime: 0.82.5
     transitivePeerDependencies:
       - '@babel/core'
-      - bufferutil
       - supports-color
-      - utf-8-validate
 
   '@react-native/normalize-colors@0.80.2': {}
 

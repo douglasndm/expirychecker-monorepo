@@ -1,5 +1,2 @@
 packages:
-  - packages/*
-
-patchedDependencies:
-  react-native-purchases-ui@9.2.1: patches/react-native-purchases-ui@9.2.1.patch
+    - packages/*

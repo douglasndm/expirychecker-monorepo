@@ -1,0 +1,52 @@
+diff --git a/android/src/main/java/com/revenuecat/purchases/react/ui/RNCustomerCenterModule.kt b/android/src/main/java/com/revenuecat/purchases/react/ui/RNCustomerCenterModule.kt
+index b0821b97e2d95ffa8636bccb16d0808610544f40..6f1430dd685d5b66413c963caab43f75b121e59b 100644
+--- a/android/src/main/java/com/revenuecat/purchases/react/ui/RNCustomerCenterModule.kt
++++ b/android/src/main/java/com/revenuecat/purchases/react/ui/RNCustomerCenterModule.kt
+@@ -65,7 +65,9 @@ internal class RNCustomerCenterModule(
+     fun presentCustomerCenter(
+         promise: Promise
+     ) {
+-        currentActivity?.let {
++        val activity = reactApplicationContext.currentActivity
++
++        activity?.let {
+             customerCenterPromise = promise
+             presentCustomerCenterFromActivity(it)
+         } ?: run {
+@@ -77,6 +79,7 @@ internal class RNCustomerCenterModule(
+         }
+     }
+ 
++
+     @ReactMethod
+     fun addListener(eventName: String?) {
+         // Keep: Required for RN built in Event Emitter Calls.
+diff --git a/android/src/main/java/com/revenuecat/purchases/react/ui/RNPaywallsModule.kt b/android/src/main/java/com/revenuecat/purchases/react/ui/RNPaywallsModule.kt
+index abadc93f2bcccef5daedfb9f1fd72ff53775880f..9b3e22e63918fbeef355954ffd2440e7361006af 100644
+--- a/android/src/main/java/com/revenuecat/purchases/react/ui/RNPaywallsModule.kt
++++ b/android/src/main/java/com/revenuecat/purchases/react/ui/RNPaywallsModule.kt
+@@ -21,15 +21,17 @@ internal class RNPaywallsModule(
+     }
+ 
+     private val currentFragmentActivity: FragmentActivity?
+-        get() {
+-            return when (val currentActivity = currentActivity) {
+-                is FragmentActivity -> currentActivity
+-                else -> {
+-                    Log.e(NAME, "RevenueCat paywalls require applications to use a FragmentActivity")
+-                    null
+-                }
++    get() {
++        val activity = reactApplicationContext.currentActivity
++        return when (activity) {
++            is FragmentActivity -> activity
++            else -> {
++                Log.e(NAME, "RevenueCat paywalls require applications to use a FragmentActivity")
++                null
+             }
+         }
++    }
++
+ 
+     override fun getName(): String {
+         return NAME

@@ -422,6 +422,9 @@ importers:
       react-native-device-info:
         specifier: '*'
         version: 14.0.4(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0))
+      react-native-drawer-layout:
+        specifier: '*'
+        version: 4.1.12(react-native-gesture-handler@2.28.0(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0))(react-native-reanimated@4.0.2(@babel/core@7.28.3)(react-native-worklets@0.4.1(@babel/core@7.28.3)(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0))(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0))(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)
       react-native-flash-message:
         specifier: '*'
         version: 0.4.2(prop-types@15.8.1)(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)
@@ -605,6 +608,9 @@ importers:
       react-native-dialog:
         specifier: ^9.3.0
         version: 9.3.0(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))
+      react-native-drawer-layout:
+        specifier: ^4.1.12
+        version: 4.1.12(react-native-gesture-handler@2.28.0(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0))(react-native-reanimated@4.0.2(@babel/core@7.28.3)(react-native-worklets@0.4.1(@babel/core@7.28.3)(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0))(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0))(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)
       react-native-flash-message:
         specifier: ^0.4.2
         version: 0.4.2(prop-types@15.8.1)(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)
@@ -659,6 +665,9 @@ importers:
       react-native-qrcode-scanner:
         specifier: ^1.5.5
         version: 1.5.5(react-native-camera@4.2.1)(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)
+      react-native-reanimated:
+        specifier: ^4.0.2
+        version: 4.0.2(@babel/core@7.28.3)(react-native-worklets@0.4.1(@babel/core@7.28.3)(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0))(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)
       react-native-restart:
         specifier: ^0.0.27
         version: 0.0.27(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)
@@ -680,6 +689,9 @@ importers:
       react-native-vector-icons:
         specifier: ^10.3.0
         version: 10.3.0
+      react-native-worklets:
+        specifier: ^0.4.1
+        version: 0.4.1(@babel/core@7.28.3)(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)
       react-native-zip-archive:
         specifier: ^7.0.1
         version: 7.0.2(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)
@@ -11941,6 +11953,14 @@ snapshots:
     dependencies:
       react-native: 0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0)
 
+  react-native-drawer-layout@4.1.12(react-native-gesture-handler@2.28.0(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0))(react-native-reanimated@4.0.2(@babel/core@7.28.3)(react-native-worklets@0.4.1(@babel/core@7.28.3)(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0))(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0))(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0):
+    dependencies:
+      react: 19.1.0
+      react-native: 0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0)
+      react-native-gesture-handler: 2.28.0(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)
+      react-native-reanimated: 4.0.2(@babel/core@7.28.3)(react-native-worklets@0.4.1(@babel/core@7.28.3)(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0))(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)
+      use-latest-callback: 0.2.4(react@19.1.0)
+
   react-native-drawer-layout@4.1.12(react-native-gesture-handler@2.28.0(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0))(react-native-reanimated@4.0.2(@babel/core@7.28.3)(react-native-worklets@0.4.1(@babel/core@7.28.3)(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0))(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0))(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0):
     dependencies:
       react: 19.1.0
@@ -12156,6 +12176,15 @@ snapshots:
       - react
       - react-native
 
+  react-native-reanimated@4.0.2(@babel/core@7.28.3)(react-native-worklets@0.4.1(@babel/core@7.28.3)(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0))(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0):
+    dependencies:
+      '@babel/core': 7.28.3
+      react: 19.1.0
+      react-native: 0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0)
+      react-native-is-edge-to-edge: 1.2.1(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)
+      react-native-worklets: 0.4.1(@babel/core@7.28.3)(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)
+      semver: 7.7.2
+
   react-native-reanimated@4.0.2(@babel/core@7.28.3)(react-native-worklets@0.4.1(@babel/core@7.28.3)(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0))(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0):
     dependencies:
       '@babel/core': 7.28.3
@@ -12261,6 +12290,24 @@ snapshots:
     dependencies:
       prop-types: 15.8.1
       yargs: 16.2.0
+
+  react-native-worklets@0.4.1(@babel/core@7.28.3)(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0):
+    dependencies:
+      '@babel/core': 7.28.3
+      '@babel/plugin-transform-arrow-functions': 7.27.1(@babel/core@7.28.3)
+      '@babel/plugin-transform-class-properties': 7.27.1(@babel/core@7.28.3)
+      '@babel/plugin-transform-classes': 7.28.3(@babel/core@7.28.3)
+      '@babel/plugin-transform-nullish-coalescing-operator': 7.27.1(@babel/core@7.28.3)
+      '@babel/plugin-transform-optional-chaining': 7.27.1(@babel/core@7.28.3)
+      '@babel/plugin-transform-shorthand-properties': 7.27.1(@babel/core@7.28.3)
+      '@babel/plugin-transform-template-literals': 7.27.1(@babel/core@7.28.3)
+      '@babel/plugin-transform-unicode-regex': 7.27.1(@babel/core@7.28.3)
+      '@babel/preset-typescript': 7.27.1(@babel/core@7.28.3)
+      convert-source-map: 2.0.0
+      react: 19.1.0
+      react-native: 0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0)
+    transitivePeerDependencies:
+      - supports-color
 
   react-native-worklets@0.4.1(@babel/core@7.28.3)(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0):
     dependencies:

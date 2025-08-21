@@ -8,6 +8,9 @@ patchedDependencies:
   react-native-purchases-ui@9.2.2:
     hash: 6cb16928c205cafcecbc790fdca0f9f8dca24565777768293a35758ff0237a61
     path: patches/react-native-purchases-ui@9.2.2.patch
+  react-native-vision-camera:
+    hash: 0c783432be4b7c54c678d9a60b8c1efc1b5cb96f4639242ff1f58ed4f661e801
+    path: patches/react-native-vision-camera.patch
 
 importers:
 
@@ -130,9 +133,6 @@ importers:
       react-native-bootsplash:
         specifier: ^6.3.10
         version: 6.3.10(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)
-      react-native-camera-kit:
-        specifier: ^14.2.0
-        version: 14.2.0(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)
       react-native-check-version:
         specifier: ^1.1.1
         version: 1.4.0(react-native-device-info@14.0.4(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0)))(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))
@@ -232,6 +232,9 @@ importers:
       react-native-vector-icons:
         specifier: ^10.3.0
         version: 10.3.0
+      react-native-vision-camera:
+        specifier: ^4.7.1
+        version: 4.7.1(patch_hash=0c783432be4b7c54c678d9a60b8c1efc1b5cb96f4639242ff1f58ed4f661e801)(react-native-reanimated@4.0.2(@babel/core@7.28.3)(react-native-worklets@0.4.1(@babel/core@7.28.3)(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0))(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0))(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)
       react-native-worklets:
         specifier: ^0.4.1
         version: 0.4.1(@babel/core@7.28.3)(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)
@@ -482,6 +485,9 @@ importers:
       react-native-vector-icons:
         specifier: '*'
         version: 10.3.0
+      react-native-vision-camera:
+        specifier: '*'
+        version: 4.7.1(patch_hash=0c783432be4b7c54c678d9a60b8c1efc1b5cb96f4639242ff1f58ed4f661e801)(react-native-reanimated@4.0.2(@babel/core@7.28.3)(react-native-worklets@0.4.1(@babel/core@7.28.3)(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0))(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0))(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)
       react-number-format:
         specifier: '*'
         version: 5.4.4(react-dom@19.1.1(react@19.1.0))(react@19.1.0)
@@ -588,8 +594,8 @@ importers:
         specifier: ^4.1.2
         version: 4.1.2
       react-native-camera-kit:
-        specifier: ^14.2.0
-        version: 14.2.0(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)
+        specifier: ^15.1.0
+        version: 15.1.0(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)
       react-native-check-version:
         specifier: ^1.1.1
         version: 1.4.0(react-native-device-info@14.0.4(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0)))(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))
@@ -5027,6 +5033,13 @@ packages:
       react: '*'
       react-native: '*'
 
+  react-native-camera-kit@15.1.0:
+    resolution: {integrity: sha512-4gPOJAoWAj9WaiNxPgKFYa/+M79O/Ggvc271SGgH5TmetmtinctJFm2zxeg+bAxVS9TDIYcF3ojRD98n88+VEw==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      react: '*'
+      react-native: '*'
+
   react-native-camera@4.2.1:
     resolution: {integrity: sha512-+Vkql24PFYQfsPRznJCvPwJQfyzCnjlcww/iZ4Ej80bgivKjL9eU0IMQIXp4yi6XCrKi4voWXxIDPMupQZKeIQ==}
 
@@ -5307,6 +5320,22 @@ packages:
     resolution: {integrity: sha512-IFQ0RE57819hOUdFvgK4FowM5aMXg7C7XKsuGLevqXkkIJatc3QopN0wYrb2IrzUgmdpfP+QVIbI3S6h7M0btw==}
     deprecated: react-native-vector-icons package has moved to a new model of per-icon-family packages. See the https://github.com/oblador/react-native-vector-icons/blob/master/MIGRATION.md on how to migrate
     hasBin: true
+
+  react-native-vision-camera@4.7.1:
+    resolution: {integrity: sha512-N6qqjhUSC9XRUQzqx+647+sPsrf9FcEYGjRhif1WNy2z8AwPMOSLINIcmMM6C4drxH2CdiaULGAWHpx/cnsBpw==}
+    peerDependencies:
+      '@shopify/react-native-skia': '*'
+      react: '*'
+      react-native: '*'
+      react-native-reanimated: '*'
+      react-native-worklets-core: '*'
+    peerDependenciesMeta:
+      '@shopify/react-native-skia':
+        optional: true
+      react-native-reanimated:
+        optional: true
+      react-native-worklets-core:
+        optional: true
 
   react-native-worklets@0.4.1:
     resolution: {integrity: sha512-QXAMZ8jz0sLEoNrc3ej050z6Sd+UJ/Gef4SACeMuoLRinwHIy4uel7XtMPJZMqKhFerkwXZ7Ips5vIjnNyPDBA==}
@@ -11910,7 +11939,7 @@ snapshots:
       react: 19.1.0
       react-native: 0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0)
 
-  react-native-camera-kit@14.2.0(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0):
+  react-native-camera-kit@15.1.0(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0):
     dependencies:
       react: 19.1.0
       react-native: 0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0)
@@ -12290,6 +12319,20 @@ snapshots:
     dependencies:
       prop-types: 15.8.1
       yargs: 16.2.0
+
+  react-native-vision-camera@4.7.1(patch_hash=0c783432be4b7c54c678d9a60b8c1efc1b5cb96f4639242ff1f58ed4f661e801)(react-native-reanimated@4.0.2(@babel/core@7.28.3)(react-native-worklets@0.4.1(@babel/core@7.28.3)(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0))(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0))(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0):
+    dependencies:
+      react: 19.1.0
+      react-native: 0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0)
+    optionalDependencies:
+      react-native-reanimated: 4.0.2(@babel/core@7.28.3)(react-native-worklets@0.4.1(@babel/core@7.28.3)(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0))(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)
+
+  react-native-vision-camera@4.7.1(patch_hash=0c783432be4b7c54c678d9a60b8c1efc1b5cb96f4639242ff1f58ed4f661e801)(react-native-reanimated@4.0.2(@babel/core@7.28.3)(react-native-worklets@0.4.1(@babel/core@7.28.3)(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0))(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0))(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0):
+    dependencies:
+      react: 19.1.0
+      react-native: 0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0)
+    optionalDependencies:
+      react-native-reanimated: 4.0.2(@babel/core@7.28.3)(react-native-worklets@0.4.1(@babel/core@7.28.3)(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0))(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)
 
   react-native-worklets@0.4.1(@babel/core@7.28.3)(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0):
     dependencies:

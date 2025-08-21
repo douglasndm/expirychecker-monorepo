@@ -1,0 +1,57 @@
+diff --git a/android/README.md b/android/README.md
+deleted file mode 100644
+index 6eebb68d9f242a118d634455976c94c3936dd56c..0000000000000000000000000000000000000000
+diff --git a/android/src/main/java/com/mrousavy/camera/react/CameraViewManager.kt b/android/src/main/java/com/mrousavy/camera/react/CameraViewManager.kt
+index c5845b727fe3a65840c522c7b0ea6f3245f010c1..2e95ccdf74a66f686c2adfe8cbf061f146d92bd6 100644
+--- a/android/src/main/java/com/mrousavy/camera/react/CameraViewManager.kt
++++ b/android/src/main/java/com/mrousavy/camera/react/CameraViewManager.kt
+@@ -29,19 +29,20 @@ class CameraViewManager : ViewGroupManager<CameraView>() {
+ 
+   override fun getExportedCustomDirectEventTypeConstants(): MutableMap<String, Any>? =
+     MapBuilder.builder<String, Any>()
+-      .put(CameraViewReadyEvent.EVENT_NAME, MapBuilder.of("registrationName", "onViewReady"))
+-      .put(CameraInitializedEvent.EVENT_NAME, MapBuilder.of("registrationName", "onInitialized"))
+-      .put(CameraStartedEvent.EVENT_NAME, MapBuilder.of("registrationName", "onStarted"))
+-      .put(CameraStoppedEvent.EVENT_NAME, MapBuilder.of("registrationName", "onStopped"))
+-      .put(CameraShutterEvent.EVENT_NAME, MapBuilder.of("registrationName", "onShutter"))
+-      .put(CameraErrorEvent.EVENT_NAME, MapBuilder.of("registrationName", "onError"))
+-      .put(CameraCodeScannedEvent.EVENT_NAME, MapBuilder.of("registrationName", "onCodeScanned"))
+-      .put(CameraPreviewStartedEvent.EVENT_NAME, MapBuilder.of("registrationName", "onPreviewStarted"))
+-      .put(CameraPreviewStoppedEvent.EVENT_NAME, MapBuilder.of("registrationName", "onPreviewStopped"))
+-      .put(CameraOutputOrientationChangedEvent.EVENT_NAME, MapBuilder.of("registrationName", "onOutputOrientationChanged"))
+-      .put(CameraPreviewOrientationChangedEvent.EVENT_NAME, MapBuilder.of("registrationName", "onPreviewOrientationChanged"))
+-      .put(AverageFpsChangedEvent.EVENT_NAME, MapBuilder.of("registrationName", "onAverageFpsChanged"))
+-      .build()
++        .put(CameraViewReadyEvent.EVENT_NAME, MapBuilder.of("registrationName", "onViewReady"))
++        .put(CameraInitializedEvent.EVENT_NAME, MapBuilder.of("registrationName", "onInitialized"))
++        .put(CameraStartedEvent.EVENT_NAME, MapBuilder.of("registrationName", "onStarted"))
++        .put(CameraStoppedEvent.EVENT_NAME, MapBuilder.of("registrationName", "onStopped"))
++        .put(CameraShutterEvent.EVENT_NAME, MapBuilder.of("registrationName", "onShutter"))
++        .put(CameraErrorEvent.EVENT_NAME, MapBuilder.of("registrationName", "onError"))
++        .put(CameraCodeScannedEvent.EVENT_NAME, MapBuilder.of("registrationName", "onCodeScanned"))
++        .put(CameraPreviewStartedEvent.EVENT_NAME, MapBuilder.of("registrationName", "onPreviewStarted"))
++        .put(CameraPreviewStoppedEvent.EVENT_NAME, MapBuilder.of("registrationName", "onPreviewStopped"))
++        .put(CameraOutputOrientationChangedEvent.EVENT_NAME, MapBuilder.of("registrationName", "onOutputOrientationChanged"))
++        .put(CameraPreviewOrientationChangedEvent.EVENT_NAME, MapBuilder.of("registrationName", "onPreviewOrientationChanged"))
++        .put(AverageFpsChangedEvent.EVENT_NAME, MapBuilder.of("registrationName", "onAverageFpsChanged"))
++        .build()
++        .toMutableMap()
+ 
+   override fun getName(): String = TAG
+ 
+diff --git a/android/src/main/java/com/mrousavy/camera/react/CameraViewModule.kt b/android/src/main/java/com/mrousavy/camera/react/CameraViewModule.kt
+index 7ae420949dd68c7e3ad37e64f2bffcc0b71fe897..059f677a4484f8f2a486396ad86855aecc8f769e 100644
+--- a/android/src/main/java/com/mrousavy/camera/react/CameraViewModule.kt
++++ b/android/src/main/java/com/mrousavy/camera/react/CameraViewModule.kt
+@@ -189,7 +189,7 @@ class CameraViewModule(reactContext: ReactApplicationContext) : ReactContextBase
+   }
+ 
+   private fun canRequestPermission(permission: String): Boolean {
+-    val activity = currentActivity as? PermissionAwareActivity
++    val activity = reactApplicationContext.currentActivity as? PermissionAwareActivity
+     return activity?.shouldShowRequestPermissionRationale(permission) ?: false
+   }
+ 
+diff --git a/ios/README.md b/ios/README.md
+deleted file mode 100644
+index 1c47fe132d3ab5ef1ed73fdc309ce34b91cf4c31..0000000000000000000000000000000000000000

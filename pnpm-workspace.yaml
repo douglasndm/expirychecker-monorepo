@@ -3,3 +3,4 @@ packages:
 
 patchedDependencies:
   react-native-purchases-ui@9.2.2: patches/react-native-purchases-ui@9.2.2.patch
+  react-native-vision-camera: patches/react-native-vision-camera.patch

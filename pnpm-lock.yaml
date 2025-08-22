@@ -196,9 +196,6 @@ importers:
       react-native-permissions:
         specifier: 5.4.2
         version: 5.4.2(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)
-      react-native-picker-select:
-        specifier: ^9.3.1
-        version: 9.3.1(@react-native-picker/picker@2.11.1(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0))
       react-native-purchases:
         specifier: 9.2.2
         version: 9.2.2(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)
@@ -392,6 +389,9 @@ importers:
       '@sentry/react-native':
         specifier: '*'
         version: 6.20.0(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)
+      '@shopify/flash-list':
+        specifier: '*'
+        version: 2.0.3(@babel/runtime@7.28.3)(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)
       axios:
         specifier: '*'
         version: 1.11.0
@@ -461,9 +461,6 @@ importers:
       react-native-permissions:
         specifier: '*'
         version: 5.4.2(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)
-      react-native-picker-select:
-        specifier: '*'
-        version: 9.3.1(@react-native-picker/picker@2.11.1(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0))
       react-native-purchases:
         specifier: '*'
         version: 9.2.1(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)
@@ -662,9 +659,6 @@ importers:
       react-native-permissions:
         specifier: 5.4.2
         version: 5.4.2(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)
-      react-native-picker-select:
-        specifier: ^9.3.1
-        version: 9.3.1(@react-native-picker/picker@2.11.1(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0))
       react-native-purchases:
         specifier: 9.2.2
         version: 9.2.2(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)
@@ -4383,13 +4377,6 @@ packages:
   lodash.debounce@4.0.8:
     resolution: {integrity: sha512-FT1yDzDYEoYWhnSGnpE/4Kj1fLZkDFyqRb7fNt6FdYOSxlUWAtp42Eh6Wb0rGIv/m9Bgo7x4GhQbm5Ys4SG5ow==}
 
-  lodash.isequal@4.5.0:
-    resolution: {integrity: sha512-pDo3lu8Jhfjqls6GkMgpahsF9kCyayhgykjyLMNFTKWrpVdAQtYyB4muAMWozBB4ig/dtWAmsMxLEI8wuz+DYQ==}
-    deprecated: This package is deprecated. Use require('node:util').isDeepStrictEqual instead.
-
-  lodash.isobject@3.0.2:
-    resolution: {integrity: sha512-3/Qptq2vr7WeJbB4KHUSKlq8Pl7ASXi3UG6CMbBm8WRtXi8+GHm7mKaU3urfpSEzWe2wCIChs6/sdocUsTKJiA==}
-
   lodash.memoize@4.1.2:
     resolution: {integrity: sha512-t7j+NzmgnQzTAYXcsHYLgimltOV1MXHtlOWf6GjL9Kj8GK5FInw5JotxvbOs+IvV1/Dzo04/fCGfLVs7aXb4Ag==}
 
@@ -5209,11 +5196,6 @@ packages:
     peerDependenciesMeta:
       react-native-windows:
         optional: true
-
-  react-native-picker-select@9.3.1:
-    resolution: {integrity: sha512-o621HcsKJfJkpYeP/PZQiZTKbf8W7FT08niLFL0v1pGkIQyak5IfzfinV2t+/l1vktGwAH2Tt29LrP/Hc5fk3A==}
-    peerDependencies:
-      '@react-native-picker/picker': ^2.4.0
 
   react-native-purchases-ui@9.2.1:
     resolution: {integrity: sha512-37NcUf7qtRxIeTg+4FjUlmtQOFI6cFTBDkSB5pROxb5kw3Ga5JJpikEO0NXX02Xt3oZr7MJX9gzmvimrydRsnQ==}
@@ -8121,11 +8103,6 @@ snapshots:
       react: 19.1.0
       react-native: 0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0)
 
-  '@react-native-picker/picker@2.11.1(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)':
-    dependencies:
-      react: 19.1.0
-      react-native: 0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0)
-
   '@react-native-picker/picker@2.11.1(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)':
     dependencies:
       react: 19.1.0
@@ -8588,6 +8565,13 @@ snapshots:
   '@sentry/utils@8.55.0':
     dependencies:
       '@sentry/core': 8.55.0
+
+  '@shopify/flash-list@2.0.3(@babel/runtime@7.28.3)(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)':
+    dependencies:
+      '@babel/runtime': 7.28.3
+      react: 19.1.0
+      react-native: 0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0)
+      tslib: 2.8.1
 
   '@shopify/flash-list@2.0.3(@babel/runtime@7.28.3)(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)':
     dependencies:
@@ -11053,10 +11037,6 @@ snapshots:
 
   lodash.debounce@4.0.8: {}
 
-  lodash.isequal@4.5.0: {}
-
-  lodash.isobject@3.0.2: {}
-
   lodash.memoize@4.1.2: {}
 
   lodash.merge@4.6.2: {}
@@ -12158,18 +12138,6 @@ snapshots:
     dependencies:
       react: 19.1.0
       react-native: 0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0)
-
-  react-native-picker-select@9.3.1(@react-native-picker/picker@2.11.1(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)):
-    dependencies:
-      '@react-native-picker/picker': 2.11.1(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)
-      lodash.isequal: 4.5.0
-      lodash.isobject: 3.0.2
-
-  react-native-picker-select@9.3.1(@react-native-picker/picker@2.11.1(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)):
-    dependencies:
-      '@react-native-picker/picker': 2.11.1(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)
-      lodash.isequal: 4.5.0
-      lodash.isobject: 3.0.2
 
   react-native-purchases-ui@9.2.1(react-native-purchases@9.2.1(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0))(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0):
     dependencies:

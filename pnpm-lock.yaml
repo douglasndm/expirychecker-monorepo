@@ -593,9 +593,6 @@ importers:
       react-native-bouncy-checkbox:
         specifier: ^4.1.2
         version: 4.1.2
-      react-native-camera-kit:
-        specifier: ^15.1.0
-        version: 15.1.0(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)
       react-native-check-version:
         specifier: ^1.1.1
         version: 1.4.0(react-native-device-info@14.0.4(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0)))(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))
@@ -692,6 +689,9 @@ importers:
       react-native-vector-icons:
         specifier: ^10.3.0
         version: 10.3.0
+      react-native-vision-camera:
+        specifier: ^4.7.1
+        version: 4.7.1(patch_hash=0c783432be4b7c54c678d9a60b8c1efc1b5cb96f4639242ff1f58ed4f661e801)(react-native-reanimated@4.0.2(@babel/core@7.28.3)(react-native-worklets@0.4.1(@babel/core@7.28.3)(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0))(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0))(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)
       react-native-worklets:
         specifier: ^0.4.1
         version: 0.4.1(@babel/core@7.28.3)(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0)
@@ -5022,13 +5022,6 @@ packages:
 
   react-native-bouncy-checkbox@4.1.2:
     resolution: {integrity: sha512-hB7YwCGTNoMpTPOPiP+RWyQH35S6vxUbc7IGEW/Rqyp7GonEyhtqtthmxiphneRXnywMh8CZwND7OnvppJZscg==}
-
-  react-native-camera-kit@15.1.0:
-    resolution: {integrity: sha512-4gPOJAoWAj9WaiNxPgKFYa/+M79O/Ggvc271SGgH5TmetmtinctJFm2zxeg+bAxVS9TDIYcF3ojRD98n88+VEw==}
-    engines: {node: '>=18'}
-    peerDependencies:
-      react: '*'
-      react-native: '*'
 
   react-native-camera@4.2.1:
     resolution: {integrity: sha512-+Vkql24PFYQfsPRznJCvPwJQfyzCnjlcww/iZ4Ej80bgivKjL9eU0IMQIXp4yi6XCrKi4voWXxIDPMupQZKeIQ==}
@@ -11923,11 +11916,6 @@ snapshots:
   react-native-bouncy-checkbox@4.1.2:
     dependencies:
       '@freakycoder/react-native-bounceable': 1.0.3
-
-  react-native-camera-kit@15.1.0(react-native@0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0))(react@19.1.0):
-    dependencies:
-      react: 19.1.0
-      react-native: 0.81.0(@babel/core@7.28.3)(@react-native-community/cli@20.0.0(typescript@5.9.2))(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.10)(react@19.1.0)
 
   react-native-camera@4.2.1:
     dependencies:
